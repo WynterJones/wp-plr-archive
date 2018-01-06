@@ -14,7 +14,6 @@ Via the MonetizeDesign PLR Newsletter with PLR (Private Label Rights).
 
 - MonetizeDesign does **not** offer Private Label Rights or sell these plugins anywhere.
 - The last PLR plugin offered and sold by MonetizeDesign was "UberOptin" on March 20, 2014
-
 - Resellers and other vendors offering these plugins in various forms. 
 - *The included files have not been updated since 2014.*
 
