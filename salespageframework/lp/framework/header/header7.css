@@ -1,0 +1,35 @@
+#header {
+	text-align: center;
+	background: #3FBD3A;
+	padding: 10px;
+	border: 4px solid #266A22;
+	box-shadow: 0 0 5px #8ff38b inset;
+}
+	#header h1 {
+		font-weight: 800;
+		letter-spacing: -1px;
+		color: #fff;
+		font-size: 3.3em;
+		padding: 10px 30px;
+		margin-top: 0;
+		text-shadow: 1px 1px 0 #266A22;
+	}
+		#header h1 strong {
+			font-weight: 800;
+			color: #205A1C;
+			text-shadow: 1px 1px 0 #6fe86a;
+		}
+	#header h3 {
+		font-weight: 600;
+		color: #fff;
+		background: #266A22;
+		box-shadow: 0 0 5px #266b23 inset;
+		border: 1px solid #266b23;
+		border-radius: 10px;
+		display: block;
+		width: 90%;
+		margin: 10px auto;
+		font-size: 1.7em;
+		padding: 10px 30px;
+		text-shadow: 1px 1px 0 #266b23;
+	}

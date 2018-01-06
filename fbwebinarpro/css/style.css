@@ -1,0 +1,77 @@
+
+
+#cd_mainContent{
+	background: url(../images/repeater.png) repeat-y;
+	padding: 20px;
+}
+
+#cd_headerWrapper{
+	width: 892px;
+	height: 190px;
+	background: url(../images/header.png) no-repeat;
+}
+
+#cd_keypad{
+	padding-top: 114px;
+	padding-left: 80px;
+}
+
+.cd_keypad{
+	float: left;
+	width: 62px;
+	height: 60px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.cd_keypad img{
+	margin-left: 20px;
+	margin-top: 12px;
+}
+
+.cd_keypad:hover{
+	background: url(../images/keypad_selected.png) no-repeat;
+}
+
+.cd_keypad_active{
+	background: url(../images/keypad_active.png) no-repeat;
+}
+
+.cd_keypad_notactive{
+	background: url(../images/keypad_inactive.png) no-repeat;
+}
+
+.cd_keypad_selected{
+	background: url(../images/keypad_selected.png) no-repeat;
+}
+
+.uibutton {
+position: relative;
+z-index: 1;
+overflow: visible;
+display: inline-block;
+padding: 0.3em 0.6em 0.375em;
+border: 1px solid #999;
+border-bottom-color: #888;
+margin: 0;
+text-decoration: none;
+text-align: center;
+font: bold 11px/normal 'lucida grande', tahoma, verdana, arial, sans-serif;
+white-space: nowrap;
+cursor: pointer;
+color: #333;
+background-color: #EEE;
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F5F6F6), to(#E4E4E3));
+background-image: -moz-linear-gradient(#F5F6F6, #E4E4E3);
+background-image: -o-linear-gradient(#F5F6F6, #E4E4E3);
+background-image: linear-gradient(#F5F6F6, #E4E4E3);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f5f6f6', EndColorStr='#e4e4e3');
+-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 white;
+-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #fff;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 white;
+zoom: 1;
+}
+
+.uibutton.large {
+font-size: 13px;
+}

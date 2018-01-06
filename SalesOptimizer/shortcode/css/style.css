@@ -1,0 +1,245 @@
+html, body {
+	background: none;
+	color: #333 ;
+	text-shadow: none !important;
+}
+* {
+	text-shadow: none !important;
+}
+.panel-body {
+	background: #fff;
+	padding: 20px 20px;
+}
+.panel-title {
+	text-align: center !important;
+	padding: 10px 40px;
+	font-size: 24px;
+	line-height: 1.3em;
+	opacity: 1 !important;
+	text-shadow: 1px 1px 0 inherit;
+	font-weight: bolder !important;
+}
+.mainHeadline {
+	text-align: center;
+	margin: 0;
+	letter-spacing: -1px !important;
+	font-weight: bolder !important;
+	padding: 0 10px !important;
+	font-size: 48px !important;
+	line-height: 1.3em;
+	color: #333 !important;
+	text-shadow: none !important;
+}
+.btn {
+	padding: 20px 0!important;
+	font-size: 34px !important;
+	font-style: italic !important;
+	font-weight: bold !important;
+	margin: 20px auto !important;
+	width: 100%;
+}
+.normalLink {
+	text-align: center;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	color: #2773B4 !important;
+}
+	.normalLink a {
+		color: #2773B4 !important;
+	}
+.ps {
+	font-family: 'Handlee', cursive;
+	text-align: center;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0;
+	color: #666 !important;
+	padding: 0 20px;
+	line-height: 1.3em;
+}
+.creditcards {
+	display: block;
+	margin: 20px auto;
+	max-width: 100%;
+}
+/* jQuery Countdown styles 2.0.0. */
+.is-countdown {
+	
+}
+.countdown-rtl {
+	direction: rtl;
+}
+.countdown-holding span {
+	color: #888;
+}
+.countdown-row {
+	clear: both;
+	width: 100%;
+	padding: 0px 2px;
+	text-align: center;
+}
+.countdown-show1 .countdown-section {
+	width: 98%;
+}
+.countdown-show2 .countdown-section {
+	width: 48%;
+}
+.countdown-show3 .countdown-section {
+	width: 32.5%;
+}
+.countdown-show4 .countdown-section {
+	width: 24.5%;
+}
+.countdown-show5 .countdown-section {
+	width: 19.5%;
+}
+.countdown-show6 .countdown-section {
+	width: 16.25%;
+}
+.countdown-show7 .countdown-section {
+	width: 14%;
+}
+.countdown-section {
+	display: block;
+	float: left;
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+
+}
+.countdown-amount {
+    font-size: 35px;
+    font-weight: bolder;
+}
+.countdown-period {
+    display: block;
+    font-weight: bolder;
+}
+.countdown-descr {
+	display: block;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+ul.countdown {
+    list-style: none;
+    margin: 0 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+	margin-bottom: 20px;
+}
+
+ul.countdown li {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 10px;   
+    border-radius: 10px;
+    width: 90px;
+    font-size: 20px;
+
+}
+ul.countdown li span {
+    font-size: 67px ;
+    font-weight: 300;
+    font-weight: bold;
+    line-height: 67px;
+}
+
+ul.countdown li p {
+    opacity: .9;
+    font-size: 22px;
+    padding: 0; margin: 0;
+}
+#countdown {
+	width: 100%;
+	padding-bottom: 35px;
+}
+#optinName {
+	padding: 15px ;
+	font-size: 21px ;
+	 margin-bottom: 10px ;
+	 height: 60px; background: url(https://cdn2.iconfinder.com/data/icons/drf/PNG/user.png) no-repeat; 
+	 background-position: 98% 50%; 
+	 padding-right: 50px ;
+	 border: 1px solid #ccc;
+
+}
+#optinEmail {
+	padding: 15px ;
+	font-size: 21px ;
+	 margin-bottom: 10px ;
+	 height: 60px; background: url(https://cdn0.iconfinder.com/data/icons/woocons1/Mail.png) no-repeat; 
+	 background-position: 98% 50%; 
+	 padding-right: 50px ;
+	 border: 1px solid #ccc;
+
+}
+.countdownHeadline {
+	text-align: center;padding: 5px 30px; font-size: 28px;line-height: 1.4em;font-weight: normal;margin: 0; color: #555;
+}
+/* Media Queries for Phones */
+@media screen and ( max-width: 480px ) {
+	.mainHeadline {
+		text-align: center;
+		margin: 0;
+		letter-spacing: -1px;
+		font-weight: bolder;
+		padding: 0 10px;
+		font-size: 27px  !important;
+		line-height: 1.3em;
+	}
+	#optinName {
+		padding: 7px;
+		height: 40px;
+		background: url(https://cdn2.iconfinder.com/data/icons/ledicons/user_silhouette.png) no-repeat; 
+		background-position: 98% 50%; 
+		font-size: 15px;
+		border: 1px solid #ccc;
+	}
+	#optinEmail {
+		padding: 7px;
+		height: 40px;
+		background: url(https://cdn2.iconfinder.com/data/icons/ledicons/email.png) no-repeat; 
+		background-position: 98% 50%; 
+		font-size: 15px;
+		border: 1px solid #ccc;
+	}
+	.panel-body {
+		background: #fff;
+		padding: 20px 20px;
+	}
+	.ps {
+		font-size: 14px;
+		padding: 0;
+	}
+	.normalLink {
+		font-size: 14px;
+		padding: 0 20px;
+	}
+	.btn {
+		font-size: 18px!important;
+		padding: 10px 0!important;
+	}
+	.countdownHeadline {
+		font-size: 20px;
+		padding: 0 0;
+	}
+	.panel-title {
+		font-size: 20px;
+		padding: 0 0;
+	}
+	.countdown-amount {
+	    font-size: 28px;
+	    padding-top: 7px !important;
+	}
+	.countdown-section {
+		font-size: 11px;
+		padding-top: 3px !important;
+	}
+	.countdown {
+		padding: 0;
+	}
+}

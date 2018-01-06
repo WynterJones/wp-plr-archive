@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+body {
+	background: none;
+}
+#cta_revealBox {
+	width: 555px;
+	height: 335px;
+	background: url(images/cta_button.png) no-repeat;
+	margin: 20px;
+	box-shadow: 0 0 5px #ddd;
+	border-radius: 5px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+#cta_revealBox h1 {
+	padding: 25px;
+	padding-bottom: 10px;
+	font-size: 32px;
+	color: #b4232e;
+}
+#cta_revealBox h2 {
+	padding: 15px;
+	font-size: 18px;
+	font-weight: normal;
+	padding-bottom: 5px;
+}
+#revealButton {
+	width: 496px;
+	height: 142px;
+	background: url(images/button_orange.png) no-repeat;
+	margin: 10px auto;
+	text-align: center;
+	display: block;
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	color: #333;
+}
+	#discount {
+		width: 140px;
+		float: left;
+		padding: 10px;
+		color: #4b3c1d;
+		text-shadow: 1px 1px 0 #fcd66d;
+	}
+		.price {
+			font-size: 38px;
+			padding: 5px 0;
+			padding-top: 29px;
+			display: block;
+
+			font-weight: bold
+		}
+		.discount {
+			font-size: 17px;
+			padding: 5px 0;
+			margin-top: -10px;
+			display: block;
+			font-weight: lighter;
+		}
+		.activate {
+			font-size: 28px;
+			padding-top: 23px;
+			float: right;
+			text-align: left;
+			margin-top: 35px;
+			width: 320px;
+			color: #573f0e;
+			text-shadow: 1px 1px 0 #fcd66d;
+			display: block;
+			font-weight: bold;
+		}
+#coupon1 {
+	width: 508px;
+	height: 98px;
+	background: url(images/coupon1.png) no-repeat;
+	margin: 18px auto;
+	margin-top: 29px;
+	margin-bottom: 0;
+	text-align: center;
+	display: block;
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	color: #333;
+	font-size: 28px;
+	color: #573f0e;
+	text-shadow: 1px 1px 0 #fcd66d;
+	padding-top: 36px;
+}
+#bottom {
+	padding-top: 21px;
+	font-size: 14px;
+}
+#social {
+	width: 555px;
+	padding-left: 150px;
+}
+	#fb {
+		float: left;
+		
+	}
+	#google {
+		float: left;
+		margin-right: -10px;
+		
+	}
+	#twitter {
+		float: left;
+		
+	}

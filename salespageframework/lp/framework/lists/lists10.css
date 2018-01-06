@@ -1,0 +1,12 @@
+ul.list  {
+	background: #111;
+	border-radius: 10px;
+	padding: 10px;
+	padding-left: 20px;
+	width: 95%;
+	color: #fff;
+}
+	ul.list  li {
+		margin:  10px 0;
+		border-radius: 10px;
+	}

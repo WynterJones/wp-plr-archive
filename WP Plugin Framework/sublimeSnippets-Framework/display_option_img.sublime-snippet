@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+display_option_img( 
+	\$_GET['id'],
+	\$results->${1:ID},
+	"${3:Title Of Area}", 
+	"${1:ID}",
+	"${4:Help Text}",
+	"\$sitePath"."/images/${5:img}.png [${6:1}],
+	 \$sitePath"."/images/${7:img2}.png [${8:2}]"
+);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>display_option_img</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

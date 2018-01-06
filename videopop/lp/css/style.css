@@ -1,0 +1,44 @@
+body, html {
+	background: none;
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif !important;
+}
+.row {
+	padding: 10px 15px;
+}
+.container {
+	max-width: 600px;
+}
+.header {
+	max-width: 600px;
+	text-align: center;
+	margin-top: 0;
+}
+	.header h1 {
+		font-weight: 800;
+	}
+.footer {
+	max-width: 600px;
+	margin-top: 20px;
+	text-align: center;
+	opacity: .7;
+	font-size: 11px;
+}
+form strong {
+	display: block;
+	font-size: 16px;
+	padding: 10px 0;
+}
+.btn {
+	display: block;
+	margin: 10px 0;
+	padding: 10px; 
+}
+#optinName {
+	background: url(https://cdn0.iconfinder.com/data/icons/blueberry/32/user_friend.png) #fff no-repeat right;
+	background-position: 98% 5px;
+}
+#optinEmail {
+	background: url(https://cdn0.iconfinder.com/data/icons/woocons1/Mail.png) #fff no-repeat right;
+	background-position: 98% 5px;
+}

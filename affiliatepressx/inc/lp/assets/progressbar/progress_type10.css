@@ -1,0 +1,8 @@
+.progress_type10 { position: relative; height: 16px; padding: 2px; background: #444; box-shadow: 0 1px 0 rgba(255, 255, 255, .6)); }
+.progress_type10 span { position: absolute; top: 0; left: 0; width: 100%; margin: 0; font-size: 10px; line-height: 20px; text-transform: uppercase; color: #fff; text-shadow: 0 1px 0 rgba(0, 0, 0, .4); text-align: center; -moz-user-select: none; -webkit-user-select: none; cursor: default; }
+.progress_type10 .progressbar { width: 30%; height: 16px; }
+.progress_type10 .progressbar.colorblue { background: #71cbf5; }
+.progress_type10 .progressbar.colorgreen { background: #98e460; }
+.progress_type10 .progressbar.colororange { background: #ffa024; }
+.progress_type10 .progressbar.colorpink { background: #dd61aa; }
+.progress_type10 .progressbar.colorgrey { background: #bbb; }

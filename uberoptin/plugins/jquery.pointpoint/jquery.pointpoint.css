@@ -1,0 +1,10 @@
+.pointPointArrow{
+    width:16px;
+    height:16px;
+    background:url('arrow.png') no-repeat;
+    position:absolute;
+    display:none;
+    z-index: 100000;
+    top:0;
+    left:0;
+}

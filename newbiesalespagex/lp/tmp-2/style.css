@@ -1,0 +1,44 @@
+/*
+	99Lime.com HTML KickStart by Joshua Gatcke
+	style.css
+	
+*/
+
+/*---------------------------------
+	IMPORTS
+-----------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
+
+
+/*---------------------------------
+	LAYOUT
+-----------------------------------*/
+body{
+margin:0;
+padding:0;
+color:#333;
+background:#f8f8f8 url(images/bg.png) repeat-x  center top;
+font:normal 0.9em/150% 'Arimo', "Trebuchet MS", arial, verdana, sans-serif;
+text-shadow: 0px 0px 1px transparent; /* google font pixelation fix */
+}
+
+#wrap{
+width:960px;/*960*/
+margin: 0 auto;
+padding:0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+  color: #1c94c4;
+  border-bottom:1px solid #ddd;
+  padding-bottom:0.17em;
+  padding-top:0.5em;
+}
+
+h1 { font-size: 188%; }
+h2 { font-size: 150%; }
+h3 { font-size: 132%; }
+h4 { font-size: 116%; }
+h5 { font-size: 100%; }
+h6 { font-size: 80%;  }

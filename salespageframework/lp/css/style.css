@@ -1,0 +1,145 @@
+/* Custom Styles */
+
+body, html {
+    color: #222;
+    font-family: 'Droid Sans', sans-serif;
+    overflow-x: hidden;
+}
+.container {
+	/*Change Container Width*/
+	max-width: 800px;
+	padding: 0;
+	background: #fff;
+	margin-bottom: 20px;
+}
+.footer {
+	/*Change Container Width*/
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 80%;
+	opacity: .7;
+}
+	.footer p {
+		text-align: center;
+	}
+#content {
+	padding: 10px 25px;
+	padding-bottom: 30px;
+}
+#header {
+	margin-bottom: -10px;
+}
+#header h1, #header h3 {
+	margin: 10px 20px;
+}
+hr {
+	clear: both;
+}
+/* Columns */
+.col-md-4 p, .col-md-6 p {
+	text-align: center;
+	font-size: 120%;
+}
+/* Box */
+.box {
+	margin: 20px 0;
+	padding: 20px;
+}
+/* Lists */
+ul.list  {
+	list-style: none;
+	margin: 10px 20px;
+}
+	ul.list  li {
+		padding: 7px;
+	}
+	ul.check li span {
+		padding: 9px;
+		display: block;
+		padding-top: 5px;
+		padding-left: 40px;
+		background: url(https://cdn1.iconfinder.com/data/icons/nuvola2/32x32/actions/camera_test.png) no-repeat left;
+		font-size: 1.2em;
+		line-height: 1.3em;
+	}
+	ul.x li span {
+		padding: 9px;
+		display: block;
+		padding-top: 5px;
+		padding-left: 40px;
+		background: url(https://cdn1.iconfinder.com/data/icons/nuvola2/32x32/actions/button_cancel.png) no-repeat left;
+		font-size: 1.2em;
+		line-height: 1.3em;
+	}
+/* Typography */
+h1 {
+	font-size: 2.6em;
+	letter-spacing: -1px;
+	font-weight: 800;
+	line-height: 1.3em;
+	margin: 20px  20px;
+	text-align: center;
+}
+h2 {
+	font-size: 2.2em;
+	letter-spacing: -1px;
+	font-weight: 600;
+	line-height: 1.3em;
+	margin: 20px 20px;
+	text-align: center;
+}
+h3 {
+	font-size: 1.8em;
+	letter-spacing: -1px;
+	font-weight: 400;
+	line-height: 1.2em;
+	margin: 20px 20px;
+	text-align: center;
+}
+h4 {
+	font-size: 1.6em;
+	letter-spacing: -1px;
+	font-weight: 300;
+	line-height: 1.2em;
+	margin: 20px 20px;
+	text-align: center;
+}
+h5 {
+	font-size: 1.4em;
+	font-weight: 300;
+	line-height: 1.2em;
+	margin: 20px 20px;
+	text-align: center;
+}
+h6 {
+	font-size: 1.2em;
+	font-weight: 300;
+	opacity: .7;
+	line-height: 1.2em;
+	margin: 20px 20px;
+	text-align: center;
+}
+h1 b, h2 b, h3 b, h4 b, h5 b, h6 b {  color: #F63E38 !important; }
+p {
+	font-family: 'Droid Serif', georgia, serif;
+	font-size: 1.35em;
+	line-height: 1.5em;
+	text-align: justify;
+	margin: 0  20px;
+	margin-bottom: 15px;
+}
+/* Bootstrap Fixes */
+img {
+	max-width: 100% !important;
+}
+.bg-primary,
+.bg-success,
+.bg-info,
+.bg-warning,
+.bg-danger {
+	padding: 20px;
+}
+.list-group h1, .list-group h2, .list-group h3, .list-group h4, .list-group h5, .list-group h6 {
+	text-align: left;
+}

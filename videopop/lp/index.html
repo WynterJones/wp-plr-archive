@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Testing EmbedFire</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Load Bootstrap -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+  <!-- jQuery -->
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/velocity/jquery.velocity.min.js"></script>
+  <script src="bower_components/videoplayer/youtube.js"></script>
+  <script>
+$(function() {
+    $('#play-button').on('click', function() {
+      $('.thevideo_area').hide();
+      $('#iframe').show();
+      $( "#playvideo" ).trigger( "click" );
+    });
+   $( window ).parent().mouseleave(function() {
+      $('.popup_top').slideDown();
+    });
+  });
+  </script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="bower_components/videoplayer/videoplayer.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- <div class="row topheader">
+  <div class="container">
+  
+    <h3>Discover the top five ways to increase your income with Frank Kern</h3>
+  </div>
+</div> -->
+<div class="container">
+  <div id="thevideo">
+  <div class="thevideo_area">
+    <span id="playvideo"></span>
+    <img id="play-button" src="http://imguruguide.com/wp-content/uploads/2012/02/frank-kern.jpg" class="embedfire_thumbnail" />
+    <!-- <div id="play-button2" class="embedfire_playbutton">
+      <h3>Click Here to Watch Video</h3>
+    </div> -->
+  </div>
+    <div id="iframe" style="display: none !important">
+      <div class="h_iframe">
+        <img class="ratio" src="http://placehold.it/16x9"/>
+        <iframe id="video" src="http://www.youtube.com/embed/Z0LZ6DNCgrY?enablejsapi=1&html5=1&controls=0&rel=0&title=0&showinfo=0&iv_load_policy=3&hd=1&vq=hd720" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  
+
+
+    <div class="popup_top">
+    <h4>Ready to leave? Download the Free Ebook Today </h4>
+    <a href="#" class="btn btn-success" style="margin: 10px 0">Yes, I Want Free Report</a>
+  </div>
+    <div class="popup_bottom">
+    <h4>Or Down Here?</h4>
+  </div>
+  <div class="popup_right">
+    <h3>Sign Up Today</h3><br>
+    <input type="text" placeholder="Your First Name" class="form-control">
+    <input type="text" placeholder="Your Email Address" class="form-control">
+    <button class="btn btn-primary btn-block btn-lg">Click Here to Sign Up</button>
+  </div>
+
+  <div class="popup_left">
+    <h3>Popup Left</h3>
+  </div>
+
+  <div class="popup_social">
+    <h4>Share Video with Friends</h4>
+    <!-- Twitter -->
+    <div style="float: left;width: 80px">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-via="wynterjones">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+<div style="float: left;padding-left: 10px; width: 100px">
+  <!-- Facebook -->
+  <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;width=100&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px;" allowTransparency="true"></iframe>
+</div>
+  <!-- Google+ -->
+<div style="float: left;padding-left: 10px;width: 90px">
+  <!-- Place this tag in your head or just before your close body tag. -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+<!-- Place this tag where you want the +1 button to render. -->
+<div class="g-plusone" data-size="medium"></div>
+</div>
+  </div>
+
+</div>
+
+  </div>
+</body>
+</html>

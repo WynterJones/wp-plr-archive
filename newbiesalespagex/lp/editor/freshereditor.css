@@ -1,0 +1,14 @@
+﻿.fresheditor-toolbar 
+{
+	font-family: Helvetica. 'myriad pro', sans-serif !important;
+	line-height:1.67em;
+	font-size:1em;
+}
+.toolbar-btn {
+	height: 20px;
+	display: block;
+}
+.colorpanel {
+	background-color: #333;
+}
+

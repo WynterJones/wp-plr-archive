@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html><head>
+	<title>HTML KickStart</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script type="text/javascript" src="include/js/slide.js"></script>
+	<script type="text/javascript" src="include/js/prettify.js"></script> 
+	<link rel="stylesheet" type="text/css" href="include/css/kickstart.css" media="all" />    
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />  
+	<script type="text/javascript">
+		$(document).ready(function($) {
+			
+	
+	$('#presentation').fathom({
+	  timeline: [ 0, 15, 20, 30, 40, 50, 60, 75, 90, 120, 155 ],
+	});
+
+
+
+
+		});
+	</script>
+</head>
+<body>
+
+	 <div style="position: absolute; top: 0; left: -600px;" ><iframe width="560" height="315" src="http://www.youtube.com/embed/2WdtW-_YGHU?autoplay=1" frameborder="0" allowfullscreen></iframe> </div>
+<div id="presentation">
+	<div class="slide">
+		<h1 id="prelogo">Introduction to</h1>
+		<h1 id="logo">jQuery Mobile</h1>
+		<div class="footer">
+			Mark Dalgleish - <a href="http://twitter.com/markdalgleish">@markdalgleish</a>
+		</div>
+	</div>
+	
+	<div class="slide">
+		<h1>What is jQuery Mobile?</h1>
+		<ul>
+			<li>Mobile framework using jQuery (obviously).</li>
+			<li>Aggresively cross-browser, cross-platform.</li>
+			<li>Create web apps that feel as close to native as possible.</li>
+			<li>Markup driven, minimal code required to get up and running.</li>
+			<li>Focused on progressive enhancement, graceful degradation.</li>
+		</ul>
+	</div>
+	<div class="slide">
+		<h1>Targeted Platforms</h1>
+		<ul>
+			<li>iOS, Android, Windows Mobile</li>
+			<li>Blackberry, Symbian, webOS</li>
+			<li>Firefox Mobile (Fennec), Opera Mobile / Mini</li>
+			<li>Meego, bada, Maemo...</li>
+			<li>Phonegap!</li>
+		</ul>
+	</div>
+	
+	<div class="slide">
+		<h1>Basic Page Elements</h1>
+		<ul>
+			<li>Custom elements declared using DIVs with 'data-role' attributes</li>
+			<li>At least one 'data-role="page"' element.</li>
+			<li>Inside the page, at least one 'data-role="content"' element.</li>
+			<li>Classes are added automatically.</li>
+			<li>Form elements and lists are automatically enhanced.</li>
+		</ul>
+	</div>
+	
+	
+	<div class="slide">
+		<h1>Basic Page Markup</h1>
+		<pre>
+&lt;!doctype html&gt; 
+&lt;html&gt; 
+  &lt;head&gt; 
+  &lt;title&gt;Page Title&lt;/title&gt; 
+  &lt;link rel="stylesheet" href="jquery.mobile.css" /&gt;
+  &lt;script src="jquery.js"&gt;&lt;/script&gt;
+  &lt;script src="jquery.mobile.js"&gt;&lt;/script&gt;
+&lt;/head&gt; 
+&lt;body&gt; 
+
+&lt;div data-role="page"&gt;
+
+  &lt;div data-role="header"&gt;
+    &lt;h1&gt;Page Title&lt;/h1&gt;
+  &lt;/div&gt;
+
+  &lt;div data-role="content"&gt;  
+    &lt;p&gt;Page content goes here.&lt;/p&gt;    
+  &lt;/div&gt;
+
+  &lt;div data-role="footer"&gt;
+    &lt;h4&gt;Page Footer&lt;/h4&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+		</pre>
+	</div>
+	
+	<div class="slide">
+		<div class="phone">
+			<iframe src="jqm/basicpage.html"></iframe>
+		</div>
+	</div>
+	
+	<div class="slide">
+		<h1>Virtual Pages</h1>
+		<pre>
+&lt;div data-role="page" id="page1"&gt;
+  &lt;div data-role="header"&gt;
+    &lt;h1&gt;Page 1&lt;/h1&gt;
+  &lt;/div&gt;
+  &lt;div data-role="content"&gt;
+    &lt;a href="#page2" data-role="button"&gt;Go to Page 2&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div data-role="page" id="page2"&gt;
+  &lt;div data-role="header"&gt;
+    &lt;h1&gt;Page 2&lt;/h1&gt;
+  &lt;/div&gt;
+  &lt;div data-role="content"&gt;
+    &lt;a href="#page1" data-role="button"&gt;Go to Page 1&lt;/a&gt;  
+  &lt;/div&gt;
+&lt;/div&gt;
+		</pre>
+	</div>
+	
+	<div class="slide">
+		<div class="phone">
+			<iframe src="jqm/virtualpages.html"></iframe>
+		</div>
+	</div>
+	
+	<div class="slide">
+		<h1>Separate Pages with AJAX Loading</h1>
+		<pre>
+&lt;div data-role="page"&gt;
+  &lt;div data-role="header"&gt;
+    &lt;h1&gt;Page 1&lt;/h1&gt;
+  &lt;/div&gt;
+  &lt;div data-role="content"&gt;
+    &lt;a href="page2.html" data-role="button"&gt;Go to Page 2&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+		</pre>
+	</div>
+	
+	<div class="slide">
+		<div class="phone">
+			<iframe src="jqm/page1.html"></iframe>
+		</div>
+	</div>
+	
+	<div class="slide">
+		<h1>Fixed Footer Navigation</h1>
+		<pre>
+&lt;div data-role="footer" data-id="myfooter" data-position="fixed"&gt;
+  &lt;div data-role="navbar"&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="footer.html" class="ui-btn-active"&gt;One&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="footer2.html"&gt;Two&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="footer3.html"&gt;Three&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+// Second page
+&lt;div data-role="footer" data-id="myfooter" data-position="fixed"&gt;
+  &lt;div data-role="navbar"&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="footer.html"&gt;One&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="footer2.html" class="ui-btn-active"&gt;Two&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="footer3.html"&gt;Three&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+// Third page
+&lt;div data-role="footer" data-id="myfooter" data-position="fixed"&gt;
+  &lt;div data-role="navbar"&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="footer.html"&gt;One&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="footer2.html"&gt;Two&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="footer3.html" class="ui-btn-active"&gt;Three&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+		</pre>
+	</div>
+	
+	<div class="slide">
+		<div class="phone">
+			<iframe src="jqm/footer1.html"></iframe>
+		</div>
+	</div>
+	
+	<div class="slide">
+		<h1>AJAX Loading In Depth</h1>
+		<ul>
+			<li>Every page must fit the jQuery Mobile standard.</li>
+			<li>Pages are injected into the DOM with a transition if AJAX is supported, otherwise a regular page load occurs.</li>
+			<li>If the page fails to load, the user receives a friendly, themed error message.</li>
+			<li>When linking to a non-mobile page on the same domain, use <strong>rel="external"</strong>.</li>
+			<li>Links to different domains are detected automatically, triggering a regular load.</li>
+		</ul>
+	</div>
+	
+	<div class="slide">
+		<h1>Form Elements</h1>
+		<ul>
+			<li>Regular form elements are automatically enhanced for mobile usability.</li>
+			<li>All controls gracefully degrade to their native equivalents.</li>
+			<li>Default settings can be changed to meet your needs.</li>
+		</ul>
+	</div>
+	
+	<div class="slide">
+		<div class="phone">
+			<iframe src="jqm/formelements.html"></iframe>
+		</div>
+	</div>
+	
+	<div class="slide">
+		<h1>Form Element Markup</h1>
+		<pre>
+&lt;div data-role="fieldcontain"&gt; 
+  &lt;label for="textbox"&gt;Textbox:&lt;/label&gt; 
+  &lt;input type="text" name="textbox" id="textbox" value=""  /&gt; 
+&lt;/div&gt;
+
+&lt;div data-role="fieldcontain"&gt; 
+  &lt;label for="textarea"&gt;Textarea:&lt;/label&gt; 
+  &lt;textarea name="textarea" id="textarea" value=""&gt;&lt;/textarea&gt;
+&lt;/div&gt;
+
+&lt;div data-role="fieldcontain"&gt; 
+  &lt;label for="search"&gt;Search:&lt;/label&gt; 
+  &lt;input type="search" name="search" id="search" value=""  /&gt; 
+&lt;/div&gt;
+
+&lt;div data-role="fieldcontain"&gt; 
+  &lt;label for="slider"&gt;Slider:&lt;/label&gt; 
+  &lt;select name="slider" id="slider" data-role="slider"&gt; 
+    &lt;option value="0"&gt;Off&lt;/option&gt;
+    &lt;option value="1"&gt;On&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/div&gt;
+
+&lt;div data-role="fieldcontain"&gt; 
+  &lt;label for="range"&gt;Range:&lt;/label&gt;
+  &lt;input type="range" name="range" value="0" min="0" max="10" /&gt; 
+&lt;/div&gt;
+
+&lt;div data-role="fieldcontain"&gt; 
+  &lt;fieldset data-role="controlgroup"&gt; 
+    &lt;legend&gt;Checklist:&lt;/legend&gt;
+    &lt;input type="checkbox" name="checkbox1" id="checkbox1" /&gt; 
+    &lt;label for="checkbox1"&gt;HTML&lt;/label&gt; 
+
+    &lt;input type="checkbox" name="checkbox2" id="checkbox2" /&gt; 
+    &lt;label for="checkbox2"&gt;CSS&lt;/label&gt; 
+
+    &lt;input type="checkbox" name="checkbox3" id="checkbox3" /&gt; 
+    &lt;label for="checkbox3"&gt;JavaScript&lt;/label&gt;
+  &lt;/fieldset&gt;
+&lt;/div&gt;
+
+&lt;div data-role="fieldcontain"&gt; 
+  &lt;fieldset data-role="controlgroup" data-type="horizontal"&gt; 
+    &lt;legend&gt;Horizontal Checklist:&lt;/legend&gt;
+    &lt;input type="checkbox" name="checkbox4" id="checkbox4" /&gt; 
+    &lt;label for="checkbox4"&gt;Tea&lt;/label&gt;
+
+    &lt;input type="checkbox" name="checkbox5" id="checkbox5" /&gt; 
+    &lt;label for="checkbox5"&gt;Coffee&lt;/label&gt;
+  &lt;/fieldset&gt; 
+&lt;/div&gt;
+
+&lt;div data-role="fieldcontain"&gt; 
+  &lt;fieldset data-role="controlgroup"&gt;
+    &lt;legend&gt;Radio Buttons:&lt;/legend&gt;
+      &lt;input type="radio" name="radio1" id="radio1a" value="a" /&gt; 
+      &lt;label for="radio1a"&gt;HTML5&lt;/label&gt;
+
+      &lt;input type="radio" name="radio1" id="radio1b" value="b" /&gt; 
+      &lt;label for="radio1b"&gt;Flash&lt;/label&gt;
+
+      &lt;input type="radio" name="radio1" id="radio1c" value="c" /&gt; 
+      &lt;label for="radio1c"&gt;Silverlight&lt;/label&gt;
+  &lt;/fieldset&gt;
+&lt;/div&gt;
+
+&lt;div data-role="fieldcontain"&gt; 
+  &lt;fieldset data-role="controlgroup" data-type="horizontal"&gt;
+    &lt;legend&gt;Horizontal Radio Buttons:&lt;/legend&gt;
+      &lt;input type="radio" name="radio2" id="radio2a" value="a" /&gt; 
+      &lt;label for="radio2a"&gt;Tea&lt;/label&gt;
+
+      &lt;input type="radio" name="radio2" id="radio2b" value="b" /&gt; 
+      &lt;label for="radio2b"&gt;Coffee&lt;/label&gt;
+  &lt;/fieldset&gt;
+&lt;/div&gt;
+
+&lt;div data-role="fieldcontain"&gt;
+  &lt;label for="select1" class="select"&gt;Standard Select:&lt;/label&gt;
+  &lt;select name="select1" id="select1"&gt;
+    &lt;option value="1"&gt;HTML5&lt;/option&gt;
+    &lt;option value="2"&gt;Flash&lt;/option&gt;
+    &lt;option value="3"&gt;Silverlight&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/div&gt;
+
+&lt;div data-role="fieldcontain"&gt;
+  &lt;label for="select2" class="select"&gt;Custom Select:&lt;/label&gt;
+  &lt;select name="select2" id="select2" data-native-menu="false"&gt;
+    &lt;option value="1"&gt;HTML5&lt;/option&gt;
+    &lt;option value="2"&gt;Flash&lt;/option&gt;
+    &lt;option value="3"&gt;Silverlight&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/div&gt;
+
+&lt;button name="button" name="button"&gt;Button&lt;/button&gt;
+&lt;button type="submit" name="submit"&gt;Submit&lt;/button&gt;
+		</pre>
+	</div>
+	
+	<div class="slide">
+		<div class="phone">
+			<iframe src="jqm/lists.html"></iframe>
+		</div>
+	</div>
+	
+	<div class="slide">
+		<h1>List View Markup</h1>
+		<pre>
+&lt;h4&gt;Basic List View&lt;/h4&gt;
+
+&lt;ul data-role="listview" data-inset="true"&gt;
+  &lt;li&gt;HTML&lt;/li&gt;
+  &lt;li&gt;JavaScript&lt;/li&gt;
+  &lt;li&gt;CSS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Linked List View&lt;/h4&gt;
+
+&lt;ul data-role="listview" data-inset="true"&gt;
+  &lt;li&gt;&lt;a href="target.html"&gt;HTML&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="target.html"&gt;JavaScript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="target.html"&gt;CSS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Ordered List View&lt;/h4&gt;
+
+&lt;ol data-role="listview" data-inset="true"&gt;
+  &lt;li&gt;&lt;a href="target.html"&gt;HTML&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="target.html"&gt;JavaScript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="target.html"&gt;CSS&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4&gt;Nested List View&lt;/h4&gt;
+
+&lt;ul data-role="listview" data-inset="true"&gt;
+  &lt;li&gt;
+    iOS
+    &lt;ul data-role="listview" data-inset="true"&gt;
+      &lt;li&gt;&lt;a href="target.html"&gt;v2.2.1&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="target.html"&gt;v3.1.3, v3.2&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="target.html"&gt;v4.0&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    Android
+    &lt;ul data-role="listview" data-inset="true"&gt;
+      &lt;li&gt;&lt;a href="target.html"&gt;v1.5, v1.6&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="target.html"&gt;v2.1&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="target.html"&gt;v2.2&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    Windows Mobile
+    &lt;ul data-role="listview" data-inset="true"&gt;
+      &lt;li&gt;&lt;a href="target.html"&gt;v6.1&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="target.html"&gt;v6.5.1&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="target.html"&gt;v7.0&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Searchable List View&lt;/h4&gt;
+
+&lt;ul data-role="listview" data-inset="true" data-filter="true"&gt;
+  &lt;li&gt;&lt;a href="target.html"&gt;HTML&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="target.html"&gt;JavaScript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="target.html"&gt;CSS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Split Button List View&lt;/h4&gt;
+
+&lt;ul data-role="listview" data-inset="true"&gt;
+  &lt;li&gt;
+    &lt;a href="target.html"&gt;HTML&lt;/a&gt;
+    &lt;a href="options.html" data-icon="gear"&gt;Options&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="target.html"&gt;JavaScript&lt;/a&gt;
+    &lt;a href="options.html" data-icon="gear"&gt;Options&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="target.html"&gt;CSS&lt;/a&gt;
+    &lt;a href="options.html" data-icon="gear"&gt;Options&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Thumbnail List View&lt;/h4&gt;
+
+&lt;ul data-role="listview"&gt;
+  &lt;li&gt;
+    &lt;a href="target.html"&gt;
+      &lt;img src="thumbnail1.jpg" /&gt;
+      &lt;h3&gt;Miles Davis&lt;/h3&gt;
+      &lt;p&gt;Kind of Blue&lt;p&gt;
+    &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="target.html"&gt;
+      &lt;img src="thumbnail2.jpg" /&gt;
+      &lt;h3&gt;Cannonball Adderley&lt;/h3&gt;
+      &lt;p&gt;Somethin' Else&lt;/p&gt;
+    &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="target.html"&gt;
+      &lt;img src="thumbnail3.jpg" /&gt;
+      &lt;h3&gt;Charles Mingus&lt;/h3&gt;
+      &lt;p&gt;The Black Saint and the Sinner Lady&lt;/p&gt;
+    &lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+		</pre>
+	</div>
+	
+	<div class="slide">
+		<h1>So where's the JavaScript?</h1>
+		<ul>
+			<li>Oh yeah, I almost forgot.</li>
+		</ul>
+	</div>
+	
+	<div class="slide">
+		<h1>New Events!</h1>
+		<ul>
+			<li>User events: tap, taphold, swipe, swipeleft, swiperight, orientationchange, scrollstart, scrollstop.</li>
+			<li>Page events: pagebeforeshow, pagebeforehide, pageshow, pagehide.</li>
+			<li><strong>$(document).ready()?:</strong> pagebeforecreate, pagecreate.</li>
+		</ul>
+	</div>
+	
+	<div class="slide">
+		<h1>New Functions!</h1>
+		<ul>
+			<li>$.mobile.changePage(options)</li>
+			<li>$.fn.listview(), $.fn.selectmenu() etc...</li>
+			<li>$.fn.listview('refresh'), $.fn.selectmenu('refresh') etc...</li>
+			<li>$.fn.jqmData(), $.fn.jqmRemoveData(), and $.fn.jqmHasData()</li>
+			<li>$.mobile.pageLoading(bool)<br />Show or, if bool is false, hide loading indicator.</li>
+			<li>$.mobile.silentScroll(y)</li>
+			<li>$.mobile.media() - Run cross-browser media queries!</li>
+		</ul>
+	</div>
+	
+	<div class="slide">
+		<h1>Responsive Layout HTML Classes</h1>
+		<ul>
+			<li>.portrait and .landscape classes.</li>
+			<li>.min-width-x and .max-width-x classes<br />(x == 320, 480, 768 and 1024)</li>
+			<li>Create custom width breakpoints with $.mobile.addResolutionBreakpoints()</li>
+		</ul>
+	</div>
+	
+	<div class="slide">
+		<h1>Now What?</h1>
+		<ul>
+			<li>I haven't covered everything, so...</li>
+			<li>Go read the full API docs at <a href="http://jquerymobile.com" target="_blank">jquerymobile.com</a>.</li>
+			<li>Grab a copy and try it for yourself.</li>
+			<li>Follow <a href="http://twitter.com/jquerymobile" target="_blank">@jquerymobile</a> to keep up with developments.</li>
+			<li>Slides are available online at <a href="http://markdalgleish.com/presentations/jquerymobile">markdalgleish.com/presentations/jquerymobile</a></li>
+		</ul>
+	</div>
+	
+	<div class="slide">
+		<div class="phone">
+			<iframe src="http://jquerymobile.com/demos/1.0a4.1/"></iframe>
+		</div>
+	</div>
+	
+	<div class="slide">
+		<h1>If you're interested...</h1>
+		<ul>
+			<li>This presentation was made with my new jQuery plugin, <a href="http://markdalgleish.com/projects/fathom">Fathom.js</a></li>
+			<li>Code is available on GitHub at <a href="http://github.com/markdalgleish/fathom">github.com/markdalgleish/fathom</a></li>
+			<li>Project page is up at <a href="http://markdalgleish.com/projects/fathom">markdalgleish.com/projects/fathom</a></li>
+			<li>Give it a try and let me know what you think!</li>
+		</ul>
+	</div>
+</div>
+
+	
+</body>
+</html>

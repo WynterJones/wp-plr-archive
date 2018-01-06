@@ -1,0 +1,55 @@
+body {
+	font-size: 12px;
+}
+blockquote {
+	padding: 10px;
+	border: 2px solid #888;
+	background: #fafafa;
+	color: #444;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px; 
+	border-radius: 10px;
+	margin: 10px;
+	box-shadow: 1px 1px 3px #999;
+	-moz-box-shadow: 1px 1px 3px #999;
+	-webkit-box-shadow: 1px 1px 3px #999;
+	font-family: 'Numans', sans-serif;
+}
+
+p {
+	padding: 5px 10px;
+	color: inherit;
+	line-height: 1.6em;	
+	font-family: 'Numans', sans-serif;
+	font-size: 13px;
+}
+a {
+	color: #225a99;
+}
+
+
+.clear {
+	clear: both;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Droid Sans', sans-serif;
+	padding: 5px 10px;
+	color: #444;
+	line-height: 1.6em;	
+}
+hr {
+	border: none;
+	border-bottom: 1px dashed #ccc;
+	margin: 10px 0;
+}
+ul li, ol li {
+	padding: 10px;
+	font-size: 14px;
+	border-bottom: 1px dashed #ccc;
+	list-style: none;
+	padding-left: 45px;
+	background: url(http://cdn2.iconfinder.com/data/icons/icojoy/noshadow/standart/gif/24x24/001_06.gif) no-repeat left;
+	background-position: 10px 8px;
+}

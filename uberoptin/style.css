@@ -1,0 +1,218 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+	font-family: 'Open Sans Condensed', sans-serif !important;
+}
+p {
+	font-size: 1.5em;
+}
+h1 {
+	font-size: 3.5em;
+	padding: 0 40px;
+	color: inherit !important;
+}
+h2 {
+	font-size: 2.2em;
+	padding: 0 40px;
+	color: inherit !important;
+}
+h3 {
+	font-size: 1.5em;
+	padding: 0 40px;
+	color: inherit !important;
+}
+.container {
+	width: 700px;
+	background: #fff;
+	box-shadow: 0 0 5px #333;
+	padding: 30px;
+	border-radius: 10px;
+	text-align: center;
+}
+.form-control {
+	font-size: 2em;
+	padding: 15px;
+	margin-bottom: 10px;
+	height: 70px;
+}
+.name {
+	background: url(https://cdn0.iconfinder.com/data/icons/hamburg/32/hire-me.png) no-repeat #fff;
+	background-position: 97% 19px;
+}
+.email {
+	background: url(https://cdn0.iconfinder.com/data/icons/hamburg/32/email.png) no-repeat #fff;
+	background-position: 97% 19px;
+}
+
+	.blue_style {
+		border: 5px solid #2a91d3;
+		background-color: #3da7eb;
+		-moz-box-shadow: inset 0 0 29px #73c5fb;
+		-webkit-box-shadow: inset 0 0 29px #73c5fb;
+		box-shadow: inset 0 0 29px #73c5fb;
+		text-shadow: 1px 1px 0 #2a91d3;
+		box-shadow: 0 0 5px #104d74;
+		color: #fff;
+	}
+	.red_style {
+		border: 5px solid #c63114;
+		background-color: #ef4f31;
+		-moz-box-shadow: 0 0 5px rgba(99,24,9,.75), inset 0 0 29px #fb7359;
+		-webkit-box-shadow: 0 0 5px rgba(99,24,9,.75), inset 0 0 29px #fb7359;
+		box-shadow: 0 0 5px rgba(99,24,9,.75), inset 0 0 29px #fb7359;
+
+		color: #fff;
+	}
+	.black_style {
+		border: 5px solid #1c1c1c;
+		background-color: #323232;
+		-moz-box-shadow: 0 0 5px rgba(25,25,25,.75), inset 0 0 29px #585858;
+		-webkit-box-shadow: 0 0 5px rgba(25,25,25,.75), inset 0 0 29px #585858;
+		box-shadow: 0 0 5px rgba(25,25,25,.75), inset 0 0 29px #585858;
+
+		color: #fff;
+	}
+	.orange_style {
+		border: 5px solid #b26204;
+		background-color: #f38300;
+		-moz-box-shadow: 0 0 5px rgba(117,66,6,.75), inset 0 0 29px #fb9721;
+		-webkit-box-shadow: 0 0 5px rgba(117,66,6,.75), inset 0 0 29px #fb9721;
+		box-shadow: 0 0 5px rgba(117,66,6,.75), inset 0 0 29px #fb9721;
+		color: #fff;
+	}
+	.green_style {
+		border: 5px solid #667219;
+		background-color: #96a821;
+		-moz-box-shadow: 0 0 5px rgba(81,91,18,.75), inset 0 0 29px #95a727;
+		-webkit-box-shadow: 0 0 5px rgba(81,91,18,.75), inset 0 0 29px #95a727;
+		box-shadow: 0 0 5px rgba(81,91,18,.75), inset 0 0 29px #95a727;
+
+		color: #fff;
+	}
+
+	/* Texture Styles */
+	.brick_style {
+		background-image: url(images/bricks.png);
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    border: 5px solid #66231b;
+	    box-shadow: 0 0 29px #B05B51 inset;
+		color: #fff;
+		text-shadow: 1px 1px 0 #222;
+	}
+		.brick_style .col-md-12 {
+			background-color:rgba(0,0,0,0.7);
+			border-radius: 10px;
+			border: 2px solid #222;
+			padding: 20px 20px;
+		}
+	.jean_style {
+		background-image: url(images/jeans.png);
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    border: 5px solid #16212c;
+	    box-shadow: 0 0 29px #415160 inset;
+		color: #fff;
+		text-shadow: 1px 1px 0 #222;
+		color: #fff;
+	}
+	.blackwood_style {
+		background-image: url(images/blackwood.png);
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    border: 5px solid #222;
+	    box-shadow: 0 0 29px #2C2C2C inset;
+		color: #fff;
+		text-shadow: 1px 1px 0 #222;
+		color: #fff;
+	}
+	.wood_style {
+		background-image: url(images/wood.png);
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    border: 5px solid #38160b;
+	    box-shadow: 0 0 29px #A25B44 inset;
+		color: #fff;
+		text-shadow: 1px 1px 0 #222;
+		color: #fff;
+	}
+	.textured_style {
+		background-image: url(images/texture.png);
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    border: 5px solid #000;
+	    box-shadow: 0 0 29px #2C2C2C inset;
+		color: #fff;
+		text-shadow: 1px 1px 0 #222;
+		color: #fff;
+	}
+.copyright {
+	display: block;
+	padding: 20px 30px;
+	text-align: center;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-size: 1.4em;
+	font-weight: normal;
+	opacity: .5
+}
+/* Media Queries for Phones */
+@media screen and ( max-width: 480px ) {
+    .container {
+		width: 70%;
+		font-size: 60%;
+		margin-top: 50px;
+	}
+	p {
+		font-size: 1.5em;
+	}
+	h1 {
+		font-size: 3.5em;
+		padding: 0 0;
+		color: inherit !important;
+	}
+	h2 {
+		font-size: 2.2em;
+		padding: 0 0;
+		color: inherit !important;
+	}
+	h3 {
+		font-size: 1.5em;
+		padding: 0 0;
+		color: inherit !important;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 480px) and (max-width: 991px) {
+	.container {
+		width: 60%;
+		font-size: 50%;
+	}
+	p {
+		font-size: 1.5em;
+	}
+	h1 {
+		font-size: 3.5em;
+		padding: 0 0;
+		color: inherit !important;
+	}
+	h2 {
+		font-size: 2.2em;
+		padding: 0 0;
+		color: inherit !important;
+	}
+	h3 {
+		font-size: 1.5em;
+		padding: 0 0;
+		color: inherit !important;
+	}
+}

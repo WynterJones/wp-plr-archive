@@ -1,0 +1,311 @@
+body {
+	background: url(../images/editor.png) repeat #eaeaea;
+	padding-top: 10px;
+}
+a:focus, a:active {
+	outline: none;
+}
+#topEditor {
+	display: block;
+	position: fixed;
+	width: 125px;
+	background: #ddd;
+	color: #fff;
+	float: left;
+	z-index: 999999;
+	top: 10px;
+	left: 10px;
+	-moz-box-shadow:    inset 0 3px 3px 0 #ccc;
+  	-webkit-box-shadow: inset 0 3px 3px 0 #ccc;
+ 	box-shadow:         inset 0 3px 3px 0 #ccc;
+ 	-moz-border-radius: 8px;
+ 	-webkit-border-radius: 8px;
+ 	-khtml-border-radius: 8px;
+ 	border-radius: 8px;
+ 	padding-top: 10px;
+ 	border: 1px solid #999;
+		
+}
+#topEditor ul.toolbarSection {
+	float: left !important;
+	border: none !important;
+}
+#content-editor {
+	width: 980px;
+	min-height: 660px;
+	padding: 10px;
+	margin-left: 15px;
+	background: #fff;
+}
+#startingLayout {
+	background: #000;
+	opacity: .6;
+	width: 1100px;
+	height: 750px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+	#selectLayout {
+		width: 980px;
+		height: 260px;
+		position: fixed;
+		top: 40px;
+		left: 30px;
+		z-index: 2000;
+		background: url(../images/selectlayout.png) no-repeat left;
+	}
+	#selectLayout a {
+		float: left;
+		width: 190px;
+		margin-right: 5px;
+		height: 200px;
+		text-indent: -99999px;
+	}
+#content-editor {
+	border-bottom: 1px solid #f0f0f0;
+	background: url(images/shadow.png) repeat-x bottom #fff;
+}
+	#content-editor .ctaImage img  {
+		float: left; 
+		margin: 15px 20px; 
+		margin-bottom: 20px;
+		width: 265px; 
+		height: 205px; 
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-khtml-border-radius: 5px;
+		border-radius: 5px;
+		border: 1px solid #ddd;
+		background: #f0f0f0;
+		padding: 5px;
+	}
+	#content-editor .info  {
+		width: 660px;
+		padding-left: 10px;
+	}
+	#content-editor .info h2 {
+		padding: 10px 0;
+		padding-right: 60px;
+		padding-bottom: 5px;
+		font-size: 26px;
+		font-weight: normal;
+	}
+	#content-editor .info p {
+		padding: 5px 0;
+		font-size: 15px;
+		line-height: 21px !important;
+		padding-right: 30px;
+	}
+	#content-editor .btn {
+		font-size: 21px;
+		font-weight: bold;
+		padding: 10px 20px;
+	}
+	
+	#content-editor h1 {
+		margin-bottom: 10px;
+		font-size: 28px;
+		line-height: 32px;
+	}
+	#content-editor h2 {
+		margin-bottom: 10px;
+		font-size: 24px;
+		line-height: 30px;
+	}
+	#content-editor h3 {
+		margin-bottom: 10px;
+		font-size: 21px;
+		line-height: 28px;
+	}
+	#content-editor h4 {
+		margin-bottom: 10px;
+		font-size: 18px;
+		line-height: 24px;
+	}
+	#content-editor .btn {
+		margin-top: 10px;
+	}
+.toolbar_h1 {
+	margin-top: 45px;
+}
+.toolbar_bold {
+	background: url(http://cdn2.iconfinder.com/data/icons/gnomeicontheme/16x16/actions/format-text-bold.png) no-repeat center;
+	text-indent: -99999px;
+}
+.toolbar_italic {
+	background: url(http://cdn2.iconfinder.com/data/icons/gnomeicontheme/16x16/actions/format-text-italic.png) no-repeat center;
+	text-indent: -99999px;
+}
+.toolbar_underline {
+	background: url(http://cdn2.iconfinder.com/data/icons/gnomeicontheme/16x16/actions/format-text-underline.png) no-repeat center;
+	text-indent: -99999px;
+}
+.toolbar_strikethrough {
+	background: url(http://cdn2.iconfinder.com/data/icons/gnomeicontheme/16x16/actions/format-text-strikethrough.png) no-repeat center;
+	text-indent: -99999px;
+}
+.toolbar_fontname {
+	background: url(http://cdn2.iconfinder.com/data/icons/gnomeicontheme/16x16/stock/text/stock_decrease-font.png) no-repeat center;
+	text-indent: -99999px;
+}
+.toolbar_fontsize {
+	display: none;
+}
+.toolbar_forecolor {
+	background: url(http://cdn2.iconfinder.com/data/icons/oxygen/16x16/apps/kcolorchooser.png) no-repeat center;
+	text-indent: -99999px;
+}
+.toolbar_bgcolor {
+	display: none;
+}
+.toolbar_link {
+	background: url(http://cdn2.iconfinder.com/data/icons/oxygen/16x16/emblems/emblem-symbolic-link.png) no-repeat center;
+	text-indent: -99999px;
+}
+.toolbar_image {
+	background: url(http://cdn2.iconfinder.com/data/icons/oxygen/16x16/actions/insert-image.png) no-repeat center;
+	text-indent: -99999px;
+}
+.toolbar_justifyleft {
+	background: url(http://cdn2.iconfinder.com/data/icons/gnomeicontheme/16x16/actions/format-justify-left.png) no-repeat center;
+	text-indent: -99999px;
+}
+.toolbar_justifyright {
+	background: url(http://cdn2.iconfinder.com/data/icons/gnomeicontheme/16x16/actions/format-justify-right.png) no-repeat center;
+	text-indent: -99999px;
+}
+.toolbar_justifycenter {
+	background: url(http://cdn2.iconfinder.com/data/icons/gnomeicontheme/16x16/actions/stock_text_center.png) no-repeat center;
+	text-indent: -99999px;
+}
+.toolbar_justifyfull {
+	background: url(http://cdn2.iconfinder.com/data/icons/gnomeicontheme/16x16/actions/stock_text_justify.png) no-repeat center;
+	text-indent: -99999px;
+}
+.toolbar_embed {
+	background: url(http://cdn2.iconfinder.com/data/icons/gnomeicontheme/16x16/actions/add.png) no-repeat center;
+	text-indent: -99999px;
+}
+.toolbar_blockquote {
+	background: url(http://cdn2.iconfinder.com/data/icons/splashyIcons/comments_reply.png) no-repeat center;
+	text-indent: -99999px;
+}
+.toolbar_ol {
+	background: url(http://cdn2.iconfinder.com/data/icons/gnomeicontheme/16x16/stock/text/stock_list_enum.png) no-repeat center;
+	text-indent: -99999px;
+}
+.toolbar_ul {
+	background: url(http://cdn2.iconfinder.com/data/icons/gnomeicontheme/16x16/stock/text/stock_list_bullet.png) no-repeat center;
+	text-indent: -99999px;
+}
+#openSource {
+	margin: 15px 12px;
+	margin-top: 8px;
+	width: 70px;
+	float: left;
+}
+#code {
+	position:absolute;
+	margin-top: 40px !important;
+	width:  500px  !important;
+	display: block;
+	background: #fafafa !important;
+	z-index: 9999;
+	font-size: 11px;
+	line-height: 1.6em;
+	left: 150px;
+	right: auto;
+	top: -30px;
+	padding:0;
+	height: 390px;
+}
+#addContent {
+	width: 110px;
+}
+.active-result {
+	color: #444 !important;
+}
+.CodeMirror textarea { height: 350px; }
+.section {
+	height: 34px;
+	float: left;
+}
+
+
+embed, object, iframe {
+    width:100% !important;
+    height: 230px !important;
+}
+
+#wrapper {
+	width: 510px;
+	border: 1px solid #ccc;
+	padding: 15px;
+	clear: left;
+	background: #f0f0f0;
+}
+#wrap {
+	padding: 20px;
+}
+#inner {
+	padding: 5px;
+	background: #fff;
+}
+#banner {
+	min-height: 80px;
+	padding-bottom: 20px;
+	background: url(../images/header1.png) repeat-x top;
+}
+	#ctaHeadline h1 {
+		font-size: 28px;
+		padding: 8px;
+		color: #fff;
+		text-align: center;
+		text-shadow: 0 0 2px #444;
+	}
+	#ctaSubHeadline h2 {
+		font-size: 21px;
+		padding: 0 15px;
+		font-weight: normal;
+		color: #444;
+		text-align: center;
+	}
+#openPanel {
+	width: 90px;
+	float: left;
+	position: fixed;
+	margin-top: 34px;
+}
+#PanelOptions {
+	width: 163px;
+	float: left;
+	border-right: 1px solid #222;
+	border-bottom: 1px solid #222;
+	position: fixed;
+	margin-top: 34px;
+	border-bottom-right-radius: 5px; 
+	background: url(../images/panel.png) repeat-y top #333;
+	color: #fff;
+}
+	#PanelOptions hr {
+		border: none;
+		border-bottom: 1px solid #444;
+		background: #333;
+		height: 4px;
+	}
+	#PanelOptions select {
+		width: 150px;
+		margin: 5px;
+	}
+	#PanelOptions input[type=text] {
+		width: 137px;
+		margin: 5px;
+	}
+	#PanelOptions h4 {
+		font-size: 15px;
+		color: #fff;
+		padding-left: 5px;
+		text-shadow: 0 0 2px #444;
+	}

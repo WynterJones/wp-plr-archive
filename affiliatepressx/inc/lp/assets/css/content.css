@@ -1,0 +1,98 @@
+.content {
+	padding: 20px 0;
+	padding-left: 35px;
+	padding-top: 20px;
+	width: 630px;
+}
+.content h2, .content h3, .content h4, .content h5, .content h6 {
+	font-weight: normal;
+}
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .content p {
+	margin: 0;
+	padding: 5px 0 !important;
+}
+.content h1 {
+	font-weight: bold;
+	font-size: 46px;
+	line-height: 55px;
+}
+.content h2 {
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 47px;
+}
+.content h3 {
+	font-weight: normal;
+	color: #666;
+}
+	.content ul, .content ol {
+		margin-left: 30px;
+		margin-top: 20px;
+	}
+#couponPopup h1, #couponPopup h2, #couponPopup h3, #couponPopup h4, #couponPopup h5, #couponPopup h6, #couponPopup p {
+	margin: 0;
+	padding: 5px 0 !important;
+}
+#couponPopup h1 {
+	font-weight: bold;
+	font-size: 46px;
+	line-height: 55px;
+}
+#couponPopup h2 {
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 47px;
+}
+#couponPopup h3 {
+	font-weight: normal;
+	color: #666;
+}
+blockquote {
+	padding: 20px;
+	border-left: 2px solid #ccc;
+	background: #fafafa;
+	margin: 15px 0;
+}
+.mainContent {
+	text-align: left;
+	background: #fff;
+	z-index: -2299;
+	box-shadow: 0 0 5px #000;	margin-top: -10px;
+	padding-bottom: 20px;
+	overflow: hidden;
+
+}
+
+.nameInput {
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background: url(https://cdn2.iconfinder.com/data/icons/ledicons/user_silhouette.png) no-repeat #fff;
+	background-position: 97% 10px;
+	z-index:9999;width: 49%; padding: 8px; font-size: 15px; float: left; margin-right: 8px;
+}
+.emailInput {
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background: url(https://cdn2.iconfinder.com/data/icons/ledicons/email.png) no-repeat #fff;
+	background-position: 97% 10px;
+	z-index:9999;width: 49%; padding: 8px; font-size: 15px; float: left; margin-right: -8px;
+}
+.spam {
+	float: left;
+	margin-top: 30px;
+	padding-left: 23px;
+	font-size: 14px;
+	background: url(https://cdn1.iconfinder.com/data/icons/famfamfam_mini_icons/icon_padlock.gif) no-repeat left;
+	color: #777;
+}
+
+#optin {
+		padding-top: 10px;
+	width: 100%;
+	padding: 0 0;
+	padding-bottom: 0;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-top: 10px;
+	border-radius: 8px;
+}

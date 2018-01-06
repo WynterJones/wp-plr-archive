@@ -1,0 +1,17 @@
+#social {
+	
+	padding: 10px 25px;	height: 75px;
+	
+	position: relative;
+	z-index: 999999;
+}
+.shareText {
+	display: block;
+		font-size: 18px;
+	font-weight: 300; 
+	color: #333; 
+	text-shadow: 1px 1px #fff;
+}
+.shareButton {
+	padding-top: 15px;
+}

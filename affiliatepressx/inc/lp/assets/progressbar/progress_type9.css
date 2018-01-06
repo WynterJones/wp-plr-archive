@@ -1,0 +1,48 @@
+.progress_type9 { height: 16px; padding: 2px; background: #999; box-shadow: 0 1px 0 rgba(255, 255, 255, .6), inset 0 1px 2px rgba(0, 0, 0, .5); }
+.progress_type9 .progressholder { height: 12px; padding: 2px; background: #666; box-shadow: 0 1px 0 rgba(255, 255, 255, .3), inset 0 1px 2px rgba(0, 0, 0, .5); }
+.progress_type9 .progressbar { width: 30%; height: 12px; box-shadow: 0 1px 0 rgba(0, 0, 0, .4), inset 0 1px 0 rgba(255, 255, 255, .4); }
+.progress_type9 .progressbar.colorblue {
+	background: #71cbf5;
+	background: -moz-linear-gradient(0, #71cbf5 97%, transparent 0); /* Firefox 3.6+ */
+	background: -webkit-linear-gradient(0, #71cbf5 97%, transparent 0); /* Chrome 10+, Safari 5.1+ */
+	background: -o-linear-gradient(0, #71cbf5 97%, transparent 0); /* Opera 11.10+ */
+	background: -ms-linear-gradient(0, #71cbf5 97%, transparent 0); /* IE 10+ */
+	background: linear-gradient(0, #71cbf5 97%, transparent 0); /* W3C */
+	background-size: 19px;
+}
+.progress_type9 .progressbar.colorgreen {
+	background: #98e460;
+	background: -moz-linear-gradient(0, #98e460 97%, transparent 0); /* Firefox 3.6+ */
+	background: -webkit-linear-gradient(0, #98e460 97%, transparent 0); /* Chrome 10+, Safari 5.1+ */
+	background: -o-linear-gradient(0, #98e460 97%, transparent 0); /* Opera 11.10+ */
+	background: -ms-linear-gradient(0, #98e460 97%, transparent 0); /* IE 10+ */
+	background: linear-gradient(0, #98e460 97%, transparent 0); /* W3C */
+	background-size: 19px;
+}
+.progress_type9 .progressbar.colororange {
+	background: #ffa024;
+	background: -moz-linear-gradient(0, #ffa024 97%, transparent 0); /* Firefox 3.6+ */
+	background: -webkit-linear-gradient(0, #ffa024 97%, transparent 0); /* Chrome 10+, Safari 5.1+ */
+	background: -o-linear-gradient(0, #ffa024 97%, transparent 0); /* Opera 11.10+ */
+	background: -ms-linear-gradient(0, #ffa024 97%, transparent 0); /* IE 10+ */
+	background: linear-gradient(0, #ffa024 97%, transparent 0); /* W3C */
+	background-size: 19px;
+}
+.progress_type9 .progressbar.colorpink {
+	background: #dd61aa;
+	background: -moz-linear-gradient(0, #dd61aa 97%, transparent 0); /* Firefox 3.6+ */
+	background: -webkit-linear-gradient(0, #dd61aa 97%, transparent 0); /* Chrome 10+, Safari 5.1+ */
+	background: -o-linear-gradient(0, #dd61aa 97%, transparent 0); /* Opera 11.10+ */
+	background: -ms-linear-gradient(0, #dd61aa 97%, transparent 0); /* IE 10+ */
+	background: linear-gradient(0, #dd61aa 97%, transparent 0); /* W3C */
+	background-size: 19px;
+}
+.progress_type9 .progressbar.colorgrey {
+	background: #bbb;
+	background: -moz-linear-gradient(0, #bbb 97%, transparent 0); /* Firefox 3.6+ */
+	background: -webkit-linear-gradient(0, #bbb 97%, transparent 0); /* Chrome 10+, Safari 5.1+ */
+	background: -o-linear-gradient(0, #bbb 97%, transparent 0); /* Opera 11.10+ */
+	background: -ms-linear-gradient(0, #bbb 97%, transparent 0); /* IE 10+ */
+	background: linear-gradient(0, #bbb 97%, transparent 0); /* W3C */
+	background-size: 19px;
+}

@@ -1,0 +1,172 @@
+body{
+	background-color: #DDD;
+	background-image: url(../images/repeater.png);
+	background-repeat: repeat-x;
+}
+
+#mainWrapper{
+	/*background-color: #FFF;*/
+	width: 880px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	/*padding: 30px;*/
+
+
+
+}
+
+#header{
+	background:#fff;
+	border:1px solid #ccc;
+	margin-left:-1px;
+	margin-bottom:20px;
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.19);
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.19);
+	box-shadow: 0 1px 5px rgba(0,0,0,0.19);
+	text-align: center;
+	padding: 25px; border-radius: 4px;
+}
+
+#intro{
+	float: left;
+	background:#fff;
+	border:1px solid #ccc;
+	margin-left:-1px;
+	margin-bottom:20px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.19);
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.19);
+	box-shadow: 0 1px 5px rgba(0,0,0,0.19);
+border-radius: 4px;
+	padding: 25px;
+	width: 420px;
+}
+	#intro h1 {
+		font-size:  28px;
+		line-height: 32px;
+		padding-bottom: 10px;
+		color: #333;
+	}
+	#intro p {
+		font-size:  15px;
+		line-height: 21px;
+		padding: 10px 0;
+		color: #333;
+	}
+
+#branding {
+	float: right;
+	background:#fff;
+	border:1px solid #ccc;
+	margin-left:-1px;
+	margin-bottom:20px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.19);
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.19);
+	box-shadow: 0 1px 5px rgba(0,0,0,0.19);
+	line-height: 21px;
+	padding: 25px;
+	width: 335px;
+}
+	#branding .logo {
+		width: 100%;
+		padding: 10px 0;
+	}
+	#branding p {
+		padding-bottom: 15px;
+	}
+
+.quote {
+	float: left;
+	margin-left:-1px;
+	margin-bottom:20px;
+	padding: 25px;
+	width: 390px;
+}
+	.quote p {
+		font-size:  15px;
+		line-height: 21px;
+		padding: 10px 0;
+		color: #333;
+	}
+	.quote h3 {
+		font-size:  18px;
+		padding-bottom: 10px;
+		color: #333;
+	}
+#footer {
+	padding: 30px 20px;
+	padding-bottom: 0;
+	border-top: 1px #999 dashed;
+	margin-top: 10px;
+	clear: both;
+	font-size: 13px;
+}
+
+#headline {
+	width: 878px;
+	background: #2777c3;
+	color: #fff;
+border-radius: 4px;
+	clear: both;
+	border: 1px solid #0b2e50;
+	margin-bottom: -3px;
+	position: relative;
+	margin-left: -1px;
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.19);
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.19);
+	box-shadow: 0 1px 5px rgba(0,0,0,0.19);
+}
+	#headline h1 {
+		padding: 20px;
+		font-size: 24px;
+		font-weight: normal;
+		text-shadow: 1px 1px 1px #0b2e50;
+	}
+.headline {
+	width: 877px;
+	background: #222;
+	color: #fff;
+	clear: both;
+	border: 1px solid #000;
+	margin-bottom: 20px;
+	text-align:  center;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.19);
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.19);
+	box-shadow: 0 1px 5px rgba(0,0,0,0.19);
+	padding: 20px 0;
+	border-radius: 5px;
+}
+	.headline h1 {
+		font-size: 38px !important;
+		color: #fff !important;
+		font-weight: nold;
+		text-shadow: 1px 1px 1px #000;
+	}
+	.headline h3 {
+		font-size: 14px !important;
+		color: #fff !important;
+		font-weight: normal;
+		text-shadow: 1px 1px 1px #000;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+	.headline p {
+		font-size: 14px !important;
+		color: #888 !important;
+		font-weight: normal;
+		width: 600px;
+		margin: 0 auto;
+		line-height: 18px;
+		display: block;
+	}
+
+	.check {
+		background: url(http://cdn3.iconfinder.com/data/icons/UltimateGnome/24x24/actions/dialog-apply.png) no-repeat left;
+	}
+	.x {
+		background: url(http://cdn2.iconfinder.com/data/icons/icojoy/noshadow/standart/png/24x24/001_05.png) no-repeat left;
+	}

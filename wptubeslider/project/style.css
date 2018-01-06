@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,400italic,700italic|Libre+Baskerville:400,700,400italic);
+
+h1,h2,h3,h4,h5,h6{
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+thead th,
+tbody th{
+font-family: 'Libre Baskerville', serif;
+}
+
+button,
+a.btn,
+input[type="submit"],
+input[type="reset"],
+input[type="button"]{
+font-family: 'Libre Baskerville', serif;
+}
+
+.menu{
+font-family: 'Libre Baskerville', serif;
+}
+
+blockquote{
+font-family: 'Libre Baskerville', serif;
+}
+
+body{
+margin:0;
+padding:0;
+color:#000;
+background:#222 url(images/bg.png) repeat center top;
+font:normal 0.9em/150% ;
+text-shadow: 0px 0px 1px transparent; /* google font pixelation fix */
+}
+p {
+	font-family: 'Libre Baskerville', serif;
+}
+#wrap{
+width:960px;/*960*/
+background:#fff;
+margin:30px auto 30px auto;
+padding:0;
+border:1px solid #ccc;
+}
+#presentation {
+	margin: 0;
+}
+.menu{
+margin:-1px -1px 0 -1px;
+}
+div.slide {
+-webkit-box-shadow: 0 0 20px #000;
+-moz-box-shadow: 0 0 20px #000;
+box-shadow: 0 0 20px #000;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+height: 300px;
+padding: 20px;
+position: relative;
+width: 80%;
+background: #fff;
+}
+div.inactiveslide {
+opacity: 0.4;
+}
+div.activeslide {
+opacity: 1;
+}
+div.footer {
+bottom: 20px;
+color: #404040;
+font-family: arial;
+font-size: 26px;
+position: absolute;
+text-align: center;
+width: 100%;
+}
+pre {
+font-family: monospace;
+font-size: 16pt;
+height: 600px;
+letter-spacing: -1px;
+line-height: 20pt;
+overflow: auto;
+}
+pre:focus {
+outline: 0;
+}
+div.phone {
+-webkit-box-shadow: 0 0 30px #c0c0c0;
+-moz-box-shadow: 0 0 30px #c0c0c0;
+box-shadow: 0 0 30px #c0c0c0;
+-moz-border-radius: 40px;
+-webkit-border-radius: 40px;
+border-radius: 40px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+background-color: black;
+height: 650px;
+left: 50%;
+margin-left: -190px;
+margin-top: -325px;
+position: absolute;
+top: 50%;
+width: 380px;
+}

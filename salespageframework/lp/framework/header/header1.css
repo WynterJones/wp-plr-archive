@@ -1,0 +1,20 @@
+#header {
+	text-align: center;
+	padding: 10px;
+}
+	#header h1 {
+		font-weight: 800;
+		letter-spacing: -1px;
+		font-size: 3.3em;
+		padding: 10px 30px;
+		margin-top: 0;
+	}
+		#header h1 strong {
+			font-weight: 800;
+			color: #F63E38;
+		}
+	#header h3 {
+		font-weight: 600;
+		font-size: 1.7em;
+		padding: 0 30px;
+	}

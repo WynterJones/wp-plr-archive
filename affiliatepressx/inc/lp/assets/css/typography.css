@@ -1,0 +1,29 @@
+body {
+	background: #fff;
+	font-family: 'Helvetica', 'Myriad Pro' Arial, sans-serif;
+	overflow-x: hidden;
+	font-size: 16px;
+}
+#header {
+	background: #ccc url(../images/1.png) repeat;
+	padding-bottom: 20px;
+	margin-bottom: -20px;
+}
+
+p {
+	font-weight: 300;
+	font-size: 16px;
+}
+a {
+	color: #155a9a;
+	text-decoration: none;
+}
+#closed h1, #closed h2, #closed h3, #closed h4, #closed h5, #closed h6 {
+	padding: 0;
+	margin: 0;
+}
+.jsocial_button {
+	padding: 2px;
+	display: block;
+	float: left;
+}

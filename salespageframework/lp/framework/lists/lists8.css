@@ -1,0 +1,10 @@
+ul.list  {
+	
+	width: 90%;
+}
+	ul.list  li {
+		margin:  10px 0;
+		border: 3px solid #ddd;
+		border-radius: 10px;
+		box-shadow: 0 0 5px #fafafa, 0 0 5px #fafafa inset;
+	}

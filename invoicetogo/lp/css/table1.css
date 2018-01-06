@@ -1,0 +1,261 @@
+
+/*	Style Guide
+	
+	1. Resets and Clears
+	2. Body Styles
+	2. Primary Plan/Table Styles
+	3. List (Field) Styles
+	4. Icons (Derived from Sprite.PNG)
+	5. Sign Up Button (Bottom)
+	6. Pricing Button (Top)
+	8. The Responsive Goods
+
+-----------------------------------------*/
+
+
+/* 1. Resets and Clears
+-----------------------------------------*/
+
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,and,address,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video,input,textarea,select{background:transparent;border:0;font-size:100%;margin:0;outline:0;padding:0;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}del{text-decoration:line-through}hr{background:transparent;border:0;clear:both;color:transparent;height:1px;margin:0;padding:0}mark{background-color:#ffffb3;font-style:italic}input,select{vertical-align:middle}ins{background-color:red;color:white;text-decoration:none}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}
+.clear{clear:both;display:block;height:0;overflow:hidden;visibility:hidden;width:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;height:0;line-height:0;visibility:hidden;width:0}* html .clearfix,:first-child+html .clearfix{zoom:1}
+
+
+/* 2. Body Styles
+-----------------------------------------*/
+
+
+body {
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:#292d36;
+	background:url(../images/bg.png) repeat;
+	-webkit-font-smoothing: antialiased;
+	     -khtml-font-smoothing: antialiased;
+	       -moz-font-smoothing: antialiased;
+	        -ms-font-smoothing: antialiased;
+	         -o-font-smoothing: antialiased;
+	            font-smoothing: antialiased;
+	}
+
+.container {
+	width:965px;
+
+	margin:70px auto
+}
+
+
+/* 3. Primary Plan/Table Styles
+-----------------------------------------*/
+
+
+.plan { float:left;  }
+
+.plan article {
+	width:292px;
+	float:left;
+	background:#fff;
+	border:1px solid #a6b1c2;
+	margin-left:-1px; -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.19);
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.19);
+	box-shadow: 0 1px 5px rgba(0,0,0,0.19);
+	margin-bottom:20px;
+	-webkit-box-shadow:0 0 4px rgba(0,0,0,.2);
+	-moz-box-shadow:0 0 4px rgba(0,0,0,.2);1
+	box-shadow:0 0 4px rgba(0,0,0,.2);
+	}
+
+.plan article:first-child {
+	-webkit-border-radius:2px 0 0 2px;
+	-moz-border-radius:2px 0 0 2px;
+	border-radius:2px 0 0 2px;
+	}
+
+.plan article:last-child { 
+	-webkit-border-radius:0 2px 2px 0;
+	-moz-border-radius:0 2px 2px 0;
+	border-radius:0 2px 2px 0;
+	border-right:1px solid #a6b1c2; 
+	}
+
+.plan-info {
+	padding:19px 18px 20px 18px;
+	border-bottom:1px solid #a6b1c2;
+	}
+
+
+.plan h1 {
+	font-size:22px;
+	font-weight: bold;
+	display:block;
+	margin-bottom: -10px;
+}
+
+.plan h2 {
+	font-size:13px;
+	font-weight:bold;
+	display:block;
+}
+
+.plan h3 {
+	font-size:12px;
+	font-weight:normal;
+	display:block;
+	}
+
+.plan p {
+	font-size:12px;
+	color:#7c828e;
+	}
+
+
+/* 4. List (Field) Styles
+-----------------------------------------*/
+
+
+.feature-list li {
+	background:#fff;
+	width:256px;
+	padding:10px 18px 10px 18px;
+	/*height:26px;
+	overflow:hidden;*/
+    /*transition:all 0.5s ease-in-out;
+		-webkit-transition:all 0.5s ease-in-out;
+	    -moz-transition:all 0.5s ease-in-out;
+	    -o-transition:all 0.5s ease-in-out;
+	    -ms-transition:all 0.5s ease-in-out;*/
+	}
+
+.feature-list li.dropdown {
+	cursor:pointer;
+	background:#fff url(../images/plus.png) no-repeat right top;
+	}
+
+
+
+/*.feature-list li.dropdown:hover {
+	height:93px;
+	background:#fff url(../images/plus_hover.png) no-repeat right top;
+	}*/
+
+/*.feature-list li.dropdown1:hover { height:100px; }
+
+.feature-list li.dropdown2:hover { height:152px; }*/
+
+.feature-list li:nth-child(odd) { background:#f8f9f9; }
+
+.feature-list li.dropdown:nth-child(odd) { background:#f8f9f9 url(../images/plus.png) no-repeat right top; }
+
+/*.feature-list li.dropdown:nth-child(odd):hover { background:#f8f9f9 url(../images/plus_hover.png) no-repeat right top; }*/
+
+.feature-list { border-bottom:1px solid #a6b1c2; }
+
+
+/* 5. Icons (Derived from Sprite.PNG)
+-----------------------------------------*/
+
+
+.feature-list li span {
+	width:26px;
+	height:26px;
+	float:left;
+	margin-right:14px;
+	margin-top: 7px;
+	}
+
+
+
+/* 6. Pricing Button (Top)
+-----------------------------------------*/
+
+
+.button {
+	float:left;
+	clear:both;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.23);
+	text-decoration:none;
+	background: rgb(79,79,79); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgb(79,79,79) 0%, rgb(47,47,47) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(79,79,79)), color-stop(100%,rgb(47,47,47))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgb(79,79,79) 0%,rgb(47,47,47) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgb(79,79,79) 0%,rgb(47,47,47) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgb(79,79,79) 0%,rgb(47,47,47) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgb(79,79,79) 0%,rgb(47,47,47) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f4f4f', endColorstr='#2f2f2f',GradientType=0 ); /* IE6-9 */
+		border: 1px solid #000000;
+	color:#e8e8e8;
+	-webkit-box-shadow:
+		inset 0 1px 0 rgba(255,255,255,.29),
+		0 1px 1px rgba(0,0,0,.25);
+	-moz-box-shadow:
+		inset 0 1px 0 rgba(255,255,255,.29),
+		0 1px 1px rgba(0,0,0,.25);
+	box-shadow:
+		inset 0 1px 0 rgba(255,255,255,.29),
+		0 1px 1px rgba(0,0,0,.25);
+	}
+
+.price.button { padding:5px 13px 5px 13px; }
+
+
+/* 7. Sign Up Button (Bottom)
+-----------------------------------------*/
+
+
+.sign-up {
+	width:198px;
+	height:40px;
+	text-transform:uppercase;
+	text-align:center;
+	line-height:40px;
+	font-size:18px;
+	margin:18px;
+	}
+	
+.button:hover {
+	color:#fff;
+	text-decoration: none;
+	}
+
+
+
+/* 8. The Responsive Goods
+-----------------------------------------*/
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.container {width:542px; }
+	
+	.plan article {
+		margin-left:10px;
+		margin-right:10px;
+		}
+		
+	.plan article {border-radius:2px !important;}
+}
+
+@media only screen and (max-width: 767px) {
+	.container { width:241px; }
+	
+	.plan article { border-radius:2px !important; }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container { width:504px; }
+	
+	.plan article {
+		margin-left:5px;
+		margin-right:5px;
+		}
+	
+	.plan article:nth-child(2) { border-radius:0 2px 2px 0; }
+	
+	.plan article:nth-child(3) { border-radius:2px 0 0 2px; }
+	
+	.plan article:last-child { border-radius:0 2px 2px 0; }
+}

@@ -1,0 +1,371 @@
+body, html {
+	background: #fff;
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6, p, span, strong {
+	cursor: default;
+}
+body {text-rendering:optimizespeed;}
+.btn {border:0;border-bottom:0;border-left:0;font-weight:'900';font-family:'Ubuntu', sans-serif;box-shadow: inset 0 -3.2px rgba(0, 0, 0, 0.12),inset 2px 0 rgba(0, 0, 0, 0.1);outline:none;-webkit-outline:none;-o-outline:none;-moz-outline:none;}
+.btn:active:not(a), .btn.active {outline:none;-moz-outline:none;background-image: none;-webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) !important;position: relative;box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) !important;top: 1px;left:-1px;}
+.btn:focus:not(a) {outline:none;-webkit-outline:none;-moz-outline:none;}
+.btn-sm {padding-top:1.5px;}
+
+.row {
+	padding: 10px 0;
+}
+.container {
+}
+.innerContent {
+	font-size: 115%;
+	padding: 20px 100px;
+}
+	.innerContent h1 {
+		font-size: 2.8em;
+		letter-spacing: -1px;
+		font-weight: bold;
+	}
+	.innerContent h2 {
+		font-size: 2.2em;
+		letter-spacing: -1px;
+		font-weight: bold;
+	}
+	.innerContent h3 {
+		font-size: 1.8em;
+		letter-spacing: -1px;
+		font-weight: normal;
+	}
+	.innerContent h4 {
+		font-size: 1.5em;
+		letter-spacing: -1px;
+		font-weight: normal;
+	}
+	.innerContent h1, .innerContent h2, .innerContent h3, .innerContent h4, .innerContent h5, .innerContent h6, .innerContent p {
+		margin: 0;
+		padding: 10px 0;
+	}
+	.innerContent a {
+		color: #397EB9;
+	}
+.row.logo {
+	
+}
+	.row.logo img {
+		display: block;
+		margin: 0 auto;
+		max-width: 80%;
+	}
+.row.header {
+	background: #fff;
+	
+	padding: 0;
+}
+.headerInner {
+
+	padding: 20px 0;
+	padding-bottom: 40px;
+}
+	.backstretch {
+		opacity: .5;
+	}
+.container.header {
+	text-align: center;
+	margin-top: 0;
+}
+	.header h1 {
+		font-weight: 800;
+		margin: 15px 0;
+		font-size: 3.1em;
+		letter-spacing: -1px;
+	}
+	.header h3 {
+		margin: 15px 0;
+		font-size: 1.6em;
+	}
+	.list {
+		text-align: left;
+	}
+	.list .col-xs-2 {
+		text-align: right;
+	}
+	.list .col-xs-2 i {
+		font-size: 2.4em;
+		color: #FF9000;
+		margin-bottom: 10px;
+		text-align: right !important;
+	}
+	.list .col-xs-10 {
+		font-size: 1.1em;
+		margin-left: -10px;
+	}
+	.list .col-xs-10 p { 
+		padding: 0;
+	}
+.video iframe {
+	/*box-shadow: 2px 2px 2px #38628d;*/
+}
+.row.ctaButton {
+	background: #fff;
+	color: #222;
+	padding: 0;
+}	
+.ctaButton {
+	background: #fff;
+	color: #222;
+	padding: 0;
+	text-align: center;
+}
+.name {
+	background: url(https://cdn2.iconfinder.com/data/icons/ledicons/user_silhouette.png) no-repeat #fff;
+	background-position: 98.5% 8px;
+}
+.email {
+	background: url(https://cdn2.iconfinder.com/data/icons/crystalproject/Open-Office-Icons/sc_mail.png) no-repeat #fff;
+	background-position: 98.5% 8px;
+}
+.emailInner {
+	
+	padding: 10px 0;
+	padding-bottom: 10px;
+}
+	.ctaButton .btn {
+		font-weight: bolder;
+		font-size: 1.7em;
+	}
+	.ctaButton h1 {
+		font-weight: 800;
+		margin: 15px 0;
+		font-size: 2.8em;
+		letter-spacing: -1px;
+		text-align: center;
+	}
+	.ctaButton h3 {
+		margin: 15px 0;
+		font-size: 1.6em;
+		text-align: center;
+	}
+	.optinSmaller h1 {
+		font-weight: 800;
+		margin: 15px 0;
+		font-size: 2.2em;
+		letter-spacing: -1px;
+		text-align: left;
+	}
+	.optinSmaller h3 {
+		margin: 15px 0;
+		font-size: 1.3em;
+		text-align: left;
+	}
+	.optinSmaller {
+		text-align: left;
+	}
+.ARform {
+	text-align: left;
+}
+.row.features {
+	text-align: center;
+}	
+	.row.features i {
+		padding: 5px 20px;
+		font-size: 4em;
+		display: block;
+		text-align: center;
+		color: #4477AB;
+	}
+	.row.features h3 {
+		margin: 0;
+		font-weight: bold;
+		padding: 5px 30px;
+	}
+	.row.features p {
+		margin: 0;
+		padding: 5px 30px;
+	}
+.mainContainer {
+	background: #fff;
+	border-radius: 10px;
+	padding-top: 0;
+}
+.footer {
+	margin-top: 20px;
+	text-align: center;
+	opacity: .7;
+	font-size: 13px;
+}
+form strong {
+	display: block;
+	font-size: 16px;
+	padding: 10px 0;
+}
+.btn {
+	display: block;
+	margin: 10px 0;
+}
+ /* jQuery Countdown styles 2.0.0. */
+.is-countdown {
+	background: none;
+	box-shadow: none;
+}
+.countdown-rtl {
+	direction: rtl;
+}
+.countdown-holding span {
+	color: #888;
+}
+.countdown-row {
+	clear: both;
+	width: 100%;
+	padding: 0px 2px;
+	text-align: center;
+}
+.countdown-show1 .countdown-section {
+	width: 98%;
+}
+.countdown-show2 .countdown-section {
+	width: 48%;
+}
+.countdown-show3 .countdown-section {
+	width: 32.5%;
+}
+.countdown-show4 .countdown-section {
+	width: 24.5%;
+}
+.countdown-show5 .countdown-section {
+	width: 19.5%;
+}
+.countdown-show6 .countdown-section {
+	width: 16.25%;
+}
+.countdown-show7 .countdown-section {
+	width: 14%;
+}
+.countdown-section {
+	display: block;
+	float: left;
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+
+}
+.countdown-amount {
+    font-size: 45px;
+    line-height: 1em;
+    letter-spacing: -1px;
+    font-weight: bolder;
+}
+.countdown-period {
+    display: block;
+    font-weight: 600;
+    opacity: .8;
+}
+.countdown-descr {
+	display: block;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+ul.countdown {
+    list-style: none;
+    margin: 0 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+	margin-bottom: 20px;
+}
+
+ul.countdown li {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 10px;   
+    border-radius: 10px;
+    width: 90px;
+    font-size: 20px;
+
+}
+ul.countdown li span {
+    font-size: 67px ;
+    font-weight: 300;
+    font-weight: bold;
+    line-height: 67px;
+}
+
+ul.countdown li p {
+    opacity: .9;
+    font-size: 22px;
+    padding: 0; margin: 0;
+}
+#countdownBox {
+	width:50%; margin: 10px auto
+}
+
+/* Mobile */
+@media screen and ( max-width: 480px ) {
+
+
+.innerContent {
+	font-size: 115%;
+	padding: 20px 10px;
+}
+#countdownBox {
+	width:100%; margin:-10px auto;
+	
+}
+ul.countdown li {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 10px;   
+    border-radius: 10px;
+    width: 30px;
+    font-size: 14px;
+
+}
+.countdown-section {
+	font-size: 15px;
+}
+ul.countdown li span {
+    font-size: 22px ;
+}
+.countdown-amount {
+    font-size: 25px;
+}
+	.header h1 {
+		font-weight: 800;
+		margin: 15px 0;
+		font-size: 2.2em;
+		letter-spacing: -1px;
+	}
+	.header h3 {
+		margin: 15px 0;
+		font-size: 1.2em;
+	}
+	.ctaButton h1 {
+		font-weight: 800;
+		margin: 15px 0;
+		font-size: 1.5em;
+		letter-spacing: -1px;
+		text-align: center;
+		padding-top: 30px;
+	}
+	.ctaButton h3 {
+		margin: 15px 0;
+		font-size: 1.2em;
+		text-align: center;
+	}
+	.optinSmaller h1 {
+		font-weight: 800;
+		margin: 15px 0;
+		font-size: 1.5em;
+		letter-spacing: -1px;
+		padding-top: 30px;
+		text-align: left;
+	}
+	.optinSmaller h3 {
+		margin: 15px 0;
+		font-size: 1.3em;
+		text-align: left;
+	}
+
+
+
+}

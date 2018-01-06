@@ -1,0 +1,32 @@
+#header {
+	background: #ccc url(../images/1.png) repeat;
+	padding-bottom: 20px;
+	margin-bottom: -20px;
+}
+
+.header {
+	text-align: center;
+	padding: 50px 0;
+}
+	.header h1 {
+		font-size: 46px;
+		color: #fff;
+		text-shadow: 1px 1px 0 #222;
+		margin-bottom: 10px;
+	}
+	.header h3 {
+		font-size: 19px;
+		font-weight: 300;
+		padding: 0;
+	color: #fff;
+		width: 541px;
+		padding-top: 10px;
+		height: 60px;
+		margin: 0 auto;
+	}
+	.header img {
+		max-width: 97%;
+		width: 97%;
+		margin-left: 29px;
+		box-shadow: 0 0 5px #000;
+	}

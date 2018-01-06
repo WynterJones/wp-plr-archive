@@ -1,0 +1,44 @@
+body, html {
+	background: #fafafa;
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif !important;
+}
+.row {
+	padding: 10px 0;
+}
+.container {
+	max-width: 600px;
+}
+.header {
+	max-width: 600px;
+	text-align: center;
+	margin-top: 0;
+}
+	.header h1 {
+		font-weight: 800;
+	}
+.mainContainer {
+	background: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 20px;
+	box-shadow: 0 0 10px #ccc;
+	/* Hide for Velocity Animation */
+	opacity: 0;
+}
+.footer {
+	max-width: 600px;
+	margin-top: 20px;
+	text-align: center;
+	opacity: .7;
+	font-size: 11px;
+}
+form strong {
+	display: block;
+	font-size: 16px;
+	padding: 10px 0;
+}
+.btn {
+	display: block;
+	margin: 10px 0;
+}

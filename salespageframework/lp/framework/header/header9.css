@@ -1,0 +1,31 @@
+#header {
+	text-align: center;
+	background: none;
+	padding: 10px;
+	margin-bottom: -30px;
+}
+	#header h1 {
+		font-weight: 800;
+		letter-spacing: -1px;
+		color: #D8321F;
+		font-size: 3.3em;
+		padding: 10px 30px;
+		margin-top: 0;
+		text-shadow: 1px 1px 0 #fff;
+	}
+		#header h1 strong {
+			font-weight: 800;
+			color: #498bba;
+			text-shadow: 1px 1px 0 #fff;
+		}
+	#header h3 {
+		font-weight: 600;
+		color: #222;
+		border-radius: 10px;
+		display: block;
+		width: 90%;
+		margin: 10px auto;
+		font-size: 1.7em;
+		padding: 10px 30px;
+		text-shadow: 1px 1px 0 #fff;
+	}

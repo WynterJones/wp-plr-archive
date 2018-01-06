@@ -1,0 +1,7 @@
+.box {
+	border: 2px solid #999;
+	background: #eee;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #666, 0 0 10px #ccc inset;
+	color: #222;
+}

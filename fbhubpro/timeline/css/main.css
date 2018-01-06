@@ -1,0 +1,192 @@
+body{
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#mainContent{
+	width: 808px;
+	background-color: #FFF;
+}
+
+#topShareBar{
+	padding-top: 17px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	background: url(../images/topshadow.png) repeat-x 0 bottom;
+}
+
+.intro{
+	float: left;	
+}
+
+.share{
+	float: right;
+	position: relative;
+	z-index: 1;
+	overflow: visible;
+	display: inline-block;
+	border: 1px solid #999;
+	border-bottom-color: #888;
+	margin: 0;
+	text-decoration: none;
+	text-align: center;
+	white-space: nowrap;
+	cursor: pointer;
+	color: #333;
+	background-color: #EEE;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F5F6F6), to(#E4E4E3));
+	background-image: -moz-linear-gradient(#F5F6F6, #E4E4E3);
+	background-image: -o-linear-gradient(#F5F6F6, #E4E4E3);
+	background-image: linear-gradient(#F5F6F6, #E4E4E3);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f5f6f6', EndColorStr='#e4e4e3');
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 white;
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #fff;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 white;
+	zoom: 1;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: normal;
+	padding: 5px 7px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin-top: -5px;
+}
+
+#leftSide{
+	float: left;
+	width: 550px;
+	min-height: 300px;
+	background: url(../images/shadow.png) repeat-x 0 top;
+}
+
+#companyIntro{
+	padding-left: 0px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#companyIntro h3{
+	color: #3b3b3b;
+	font-weight: normal;
+	font-style: normal;
+}
+
+#companyIntro p{
+	color: #7c7c7c;
+}
+
+#reviewsBar{
+	border-bottom: 1px solid #dddddd;
+	border-top: 1px solid #dddddd;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+	padding: 10px 20px;
+	margin-right: 20px;
+	margin-left: 0px;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0.07) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(1%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.07))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.07) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.07) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.07) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.07) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#12000000',GradientType=0 ); /* IE6-9 */
+	-webkit-border-radius: 3px 3px 0px 0px;
+	border-radius: 3px 3px 0px 0px;
+}
+
+#reviews{
+	padding: 20px;
+}
+
+
+
+#rightSide{
+	float: right;
+	width: 256px;
+	border-bottom: 1px solid #DDD;
+	border-left: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+	background: url(../images/shadow.png) repeat-x 0 top #ececec;
+	-webkit-border-radius: 0px 0px 3px 3px;
+	border-radius: 0px 0px 3px 3px;
+}
+
+#couponBox{
+	margin: 0px;
+	background-color: #FFF;
+	padding: 20px;
+	border: 2px dashed #8d8d8d;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+	-webkit-box-shadow: 0px 2px 2px 1px #DDD;
+	box-shadow: 0px 2px 2px 1px #DDD;
+}
+
+#couponBox h3{
+	text-align: center;
+	font-size: 16px;
+	line-height: 21px;
+}
+
+#name{
+	margin-top: 15px;
+	width: 190px;
+	padding: 10px;
+	font-weight: bold;
+	background: url(../images/vcard.png) no-repeat 175px center;
+}
+
+#email{
+	margin-top: 10px;
+	width: 190px;
+	padding: 10px;
+	font-weight: bold;
+	background: url(../images/email.png) no-repeat 175px center;
+	
+}
+
+#coupon{
+	margin-top: 10px;
+	width: 190px;
+	padding: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#socialLinks{
+	border-top: 1px solid #DDD;
+}
+
+.link{
+	border-bottom: 1px solid #DDD;
+	padding-bottom: 5px;
+	padding-top: 15px;
+	cursor: pointer;
+}
+
+.link a{
+	text-decoration: none;
+}
+
+#loc{
+	height: 240px;
+	margin-right: 20px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+
+.link:hover{
+	background-color: #FFF;	
+}
+
+.link img{
+	margin-right: 15px;
+	margin-left: 20px;
+	margin-top: -8px;
+}
+
+.linkName{
+	font-size: 16px;
+	font-weight: bold;
+}

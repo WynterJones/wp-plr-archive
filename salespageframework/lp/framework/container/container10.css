@@ -1,0 +1,14 @@
+.container {
+	background: #111;
+	margin: 30px auto;
+	color: #fff;
+	box-shadow: 0 0 10px #000, 0 0 20px #000 inset;
+	border-radius: 7px;
+}
+	.container #header {
+		border-top-left-radius: 7px;
+		border-top-right-radius: 7px;
+	}
+	.panel-body, .well {
+		color: #222;
+	}

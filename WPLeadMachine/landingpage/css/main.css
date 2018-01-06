@@ -1,0 +1,259 @@
+/* @group GENERAL CSS AREA */
+
+html, body{
+	margin-top: 0px;
+	background: url(../../bg_themes/wood_light.png) repeat-x top #fff;
+}
+
+/* @end */
+
+/* @group MAIN WRAPPER SETTINGS */
+
+#mainWrapper{
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+#thankyouWrapper{
+	margin-top: 20px;
+	width: 968px;
+}
+
+#thankyou_content{
+	background: url(../images/thankyou_repeater.png) repeat-y;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+/* @end */
+
+/* @group LOGO - PHONE CTA */
+
+#logoArea{
+	float: left;
+	/* background: url(../images/logoplaceholder.png) no-repeat left center; */
+	height: 92px;
+	width: 560px;
+}
+	#logoArea h1 {
+		padding-top: 15px;
+	}
+
+#phoneCTA{
+	float: right;
+	height: 70px;
+	width: 400px;
+	text-align: right;
+	padding-top: 22px;
+}
+
+.phoneCTA_sub{
+	color: #767676;
+	font-size: 12px;
+}
+
+.phoneCTA_number{
+	color: #303030;
+	font-size: 27px;
+	font-weight: bold;
+	display: block;
+	margin-top: 5px;
+}
+
+/* @end */
+
+/* @group STAND OUT HEADLINE AREA */
+
+#standoutWrapper{
+	height: 73px;
+	text-align: center;
+}
+
+#standoutHeadline{
+	font-size: 27px;
+	color: #ffffff;
+	font-weight: bold;
+	text-shadow: 2px 2px 0px #000000;
+	filter: dropshadow(color=#000000, offx=2, offy=2);
+}
+
+/* @end */
+
+/* @group MAIN SECTION */
+
+#mainSectionWrapper{
+	margin-top: 0px;
+	width: 960px;
+}
+
+/* @end */
+
+/* @group MS - VIDEO */
+
+#ms_video{
+	float: left;
+	height: 342px;
+	width: 540px;
+	margin-top: 37px;
+	-webkit-box-shadow: 0px 0px 5px 0px #000000;
+	-moz-box-shadow: 0px 0px 5px 0px #000000;
+	box-shadow: 0px 0px 5px 0px #000000;
+}
+
+/* @end */
+
+/* @group MS - OPTIN AREA */
+
+#optinWrapper{
+	float: right;
+	width: 410px;
+	margin-right: -15px;
+	margin-top: 20px;
+}
+
+#optinHeader{
+	height: 88px;
+	width: 410px;
+	background: url(../images/optin_1/black_dark.png) repeat-x;
+	text-align: center;
+}
+
+#optinHeadline{
+	padding-top: 39px;
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: bold;
+	text-shadow: 2px 2px 0px #000000;
+	filter: dropshadow(color=#000000, offx=2, offy=2);
+}
+
+#optinContent{
+	background: url(../images/optin_1/optin_repeater.png) repeat-y;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+	min-height: 420px;
+}
+
+#optinFooter{
+	margin-bottom: 15px;
+}
+
+.optinClean{
+	margin-top: 15px;
+	width: 310px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+.btnOptin{
+	margin-top: 15px;
+	width: 330px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+#spamNotice{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 11px;
+	color: #a9a9a9;
+}
+
+.optinName{
+	background: url(../images/optin_1/fullname.png) no-repeat right center;
+}
+
+.optinEmail{
+	background: url(../images/optin_1/email.png) no-repeat right center;
+}
+
+.optinPhone{
+	background: url(../images/optin_1/phone.png) no-repeat right center;
+}
+
+/* @end */
+
+/* @group MS - LOWER HEADLINE */
+
+#lowerheadlineArea{
+	float: left;
+	width: 540px;
+	margin-top: 70px;
+}
+
+/* @end */
+
+/* @group MS - CLEARS - w/ 1st SEPARATOR */
+
+.clearms{
+	clear: all;
+}
+
+/* @end */
+
+/* @group FEATURE BLOCKS */
+
+#featuresArea{
+	
+}
+
+.featureBlock_left{
+	float: left;
+}
+
+.featureBlock_right{
+	float: right;
+}
+
+.featureBlock{
+	width: 440px;
+	margin-top: 50px;
+}
+
+.featureBlock h2{
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.featureBlock p{
+	font-size: 12px;
+	color: #757575;
+	margin-top: 10px;
+}
+
+.fullshadow{
+	margin-right: 20px;
+	border: 2px solid #ffffff;
+	-webkit-box-shadow: 0px 0px 5px 0px #cdcdcd;
+	-moz-box-shadow: 0px 0px 5px 0px #cdcdcd;
+	box-shadow: 0px 0px 5px 0px #cdcdcd;
+}
+
+.dropshadow{
+	margin-right: 20px;
+	border: 2px solid #ffffff;
+	-webkit-box-shadow: 2px 2px 3px 0px #cdcdcd;
+	-moz-box-shadow: 2px 2px 3px 0px #cdcdcd;
+	box-shadow: 2px 2px 3px 0px #cdcdcd;
+}
+
+.nostyle{
+	margin-right: 24px;
+}
+
+/* @end */
+
+/* @group MS - CLEARS - w/ 1st SEPARATOR */
+
+#testimonialArea{
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+/* @end */

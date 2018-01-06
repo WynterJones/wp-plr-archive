@@ -1,0 +1,46 @@
+body{
+	background-color: #ededed;
+	background-image: url(../images/repeater.png);
+	background-repeat: repeat-x;
+}
+
+#mainWrapper{
+	margin-left: auto;
+	margin-right: auto;
+	width: 907px;
+}
+
+#topArea{
+	text-align: center;
+}
+
+#mainContent{
+	margin-top: 80px;
+}
+
+#designs{
+	text-align: center;
+	margin-top: 20px;
+	border-top: 1px dotted #a4a4a4;
+	padding-top: 40px;
+}
+
+#video{
+	text-align: center;
+	margin-top: 20px;
+	border-top: 1px dotted #a4a4a4;
+	padding-top: 40px;
+}
+
+.blockContent {
+	width: 230px;
+	float: left;
+}
+
+.hero-unit {
+	border: 3px solid #e0e0e0;
+}
+
+iframe {
+	border: 3px solid #e0e0e0;
+}

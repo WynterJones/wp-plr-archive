@@ -1,0 +1,52 @@
+.progress_type2 { height: 16px; padding: 1px; background: #ddd; box-shadow: 0 1px 0 rgba(255, 255, 255, .6), inset 0 1px 1px rgba(0, 0, 0, .15); border-radius: 10px; }
+.progress_type2 .progressbar { width: 30%; height: 16px; border-radius: 10px; }
+.progress_type2 .progressbar.colorblue {
+	background: #8cd7f7;
+	background: -moz-linear-gradient(top, #8cd7f7 0%, #56bff3 100%); /* Firefox 3.6+ */
+	background: -webkit-linear-gradient(top, #8cd7f7 0%,#56bff3 100%); /* Chrome 10+, Safari 5.1+ */
+	background: -o-linear-gradient(top, #8cd7f7 0%,#56bff3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #8cd7f7 0%,#56bff3 100%); /* IE 10+ */
+	background: linear-gradient(top, #8cd7f7 0%,#56bff3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8cd7f7', endColorstr='#56bff3',GradientType=0 ); /* IE6-9 */
+	box-shadow: 0 1px 0 #5e91b7, 0 -1px 0 #5e91b7, 1px 0 0 #5e91b7, -1px 0 0 #5e91b7, inset 0 1px 0 rgba(255, 255, 255, .4); 
+}
+.progress_type2 .progressbar.colorgreen {
+	background: #b0ea77;
+	background: -moz-linear-gradient(top, #b0ea77 0%, #80de49 100%); /* Firefox 3.6+ */
+	background: -webkit-linear-gradient(top, #b0ea77 0%,#80de49 100%); /* Chrome 10+, Safari 5.1+ */
+	background: -o-linear-gradient(top, #b0ea77 0%,#80de49 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #b0ea77 0%,#80de49 100%); /* IE 10+ */
+	background: linear-gradient(top, #b0ea77 0%,#80de49 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8cd7f7', endColorstr='#80de49',GradientType=0 ); /* IE6-9 */
+	box-shadow: 0 1px 0 #699847, 0 -1px 0 #699847, 1px 0 0 #699847, -1px 0 0 #699847, inset 0 1px 0 rgba(255, 255, 255, .4); 
+}
+.progress_type2 .progressbar.colororange {
+	background: #ffb62c;
+	background: -moz-linear-gradient(top, #ffb62c 0%, #ff8a1c 100%); /* Firefox 3.6+ */
+	background: -webkit-linear-gradient(top, #ffb62c 0%,#ff8a1c 100%); /* Chrome 10+, Safari 5.1+ */
+	background: -o-linear-gradient(top, #ffb62c 0%,#ff8a1c 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffb62c 0%,#ff8a1c 100%); /* IE 10+ */
+	background: linear-gradient(top, #ffb62c 0%,#ff8a1c 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb62c', endColorstr='#ff8a1c',GradientType=0 ); /* IE6-9 */
+	box-shadow: 0 1px 0 #a27132, 0 -1px 0 #a27132, 1px 0 0 #a27132, -1px 0 0 #a27132, inset 0 1px 0 rgba(255, 255, 255, .4); 
+}
+.progress_type2 .progressbar.colorpink {
+	background: #e578be;
+	background: -moz-linear-gradient(top, #e578be 0%, #d54a96 100%); /* Firefox 3.6+ */
+	background: -webkit-linear-gradient(top, #e578be 0%,#d54a96 100%); /* Chrome 10+, Safari 5.1+ */
+	background: -o-linear-gradient(top, #e578be 0%,#d54a96 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #e578be 0%,#d54a96 100%); /* IE 10+ */
+	background: linear-gradient(top, #e578be 0%,#d54a96 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e578be', endColorstr='#d54a96',GradientType=0 ); /* IE6-9 */
+	box-shadow: 0 1px 0 #7b3b65, 0 -1px 0 #7b3b65, 1px 0 0 #7b3b65, -1px 0 0 #7b3b65, inset 0 1px 0 rgba(255, 255, 255, .4); 
+}
+.progress_type2 .progressbar.colorgrey {
+	background: #cbcbcb;
+	background: -moz-linear-gradient(top, #cbcbcb 0%, #ababab 100%); /* Firefox 3.6+ */
+	background: -webkit-linear-gradient(top, #cbcbcb 0%,#ababab 100%); /* Chrome 10+, Safari 5.1+ */
+	background: -o-linear-gradient(top, #cbcbcb 0%,#ababab 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #cbcbcb 0%,#ababab 100%); /* IE 10+ */
+	background: linear-gradient(top, #cbcbcb 0%,#ababab 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbcbcb', endColorstr='#ababab',GradientType=0 ); /* IE6-9 */
+	box-shadow: 0 1px 0 #747474, 0 -1px 0 #747474, 1px 0 0 #747474, -1px 0 0 #747474, inset 0 1px 0 rgba(255, 255, 255, .4); 
+}

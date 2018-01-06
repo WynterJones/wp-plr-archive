@@ -1,0 +1,6 @@
+ul.list  {
+	font-weight: bold;
+}
+	ul.list  li {
+		margin: 10px 0;
+	}

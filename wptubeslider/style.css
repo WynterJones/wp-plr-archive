@@ -1,0 +1,285 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,400italic,700italic|Libre+Baskerville:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,900,700);
+@import url(http://fonts.googleapis.com/css?family=Bevan);
+@import url(http://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700|Lato:400,700|Source+Sans+Pro:400,700|Play:400,700|Arvo:400,700|Lora:400,700|Merriweather:400,700|Playfair+Display:400,700|Coda:400,800|Patua+One|Coming+Soon|Marck+Script|Short+Stack&subset=latin,cyrillic-ext,greek-ext,vietnamese,latin-ext,cyrillic);
+
+
+body.font2 h1, body.font2 h2, body.font2 h3, body.font2 h4 {
+	font-family: 'Open Sans', serif;
+}
+body.font3 h1, body.font3 h2, body.font3 h3, body.font3 h4 {
+	font-family: 'Lato', serif;
+}
+body.font4 h1, body.font4 h2, body.font4 h3, body.font4 h4 {
+	font-family: 'Source Sans Pro', serif;
+}
+body.font5 h1, body.font5 h2, body.font5 h3, body.font5 h4 {
+	font-family: 'Play', serif;
+}
+body.font6 h1, body.font6 h2, body.font6 h3, body.font6 h4 {
+	font-family: 'Arvo', serif;
+}
+body.font7 h1, body.font7 h2, body.font7 h3, body.font7 h4{
+	font-family: 'Lora', serif;
+}
+body.font8 h1, body.font8 h2, body.font8 h3, body.font8 h4 {
+	font-family: 'Merriweather', serif;
+}
+body.font9 h1, body.font9 h2, body.font9 h3, body.font9 h4 {
+	font-family: 'Playfair Display', serif;
+}
+body.font10 h1, body.font10 h2, body.font10 h3, body.font10 h4 {
+	font-family: 'Coda', serif;
+}
+body.font11 h1, body.font11 h2, body.font11 h3, body.font11 h4 {
+	font-family: 'Patua One', serif;
+}
+body.font12 h1, body.font12 h2, body.font12 h3, body.font12 h4 {
+	font-family: 'Coming Soon', serif;
+}
+body.font13 h1, body.font13 h2, body.font13 h3, body.font13 h4 {
+	font-family: 'Marck Script', serif;
+}
+body.font14 h1, body.font14 h2, body.font14 h3, body.font14 h4 {
+	font-family: 'Short Stack', serif;
+}
+
+body.paragraph2, body.paragraph2 h4 {
+	font-family: 'Open Sans', serif;
+}
+body.paragraph3, body.paragraph3 h4 {
+	font-family: 'Lato', serif;
+}
+body.paragraph4, body.paragraph4 h4 {
+	font-family: 'Source Sans Pro', serif;
+}
+body.paragraph5, body.paragraph5 h4 {
+	font-family: 'Play', serif;
+}
+body.paragraph6, body.paragraph6 h4 {
+	font-family: 'Arvo', serif;
+}
+body.paragraph7, body.paragraph7 h4 {
+	font-family: 'Lora', serif;
+}
+body.paragraph8, body.paragraph8 h4 {
+	font-family: 'Merriweather', serif;
+}
+body.paragraph9, body.paragraph9 h4 {
+	font-family: 'Playfair Display', serif;
+}
+body.paragraph10, body.paragraph10 h4 {
+	font-family: 'Coda', serif;
+}
+body.paragraph11, body.paragraph11 h4 {
+	font-family: 'Patua One', serif;
+}
+body.paragraph12, body.paragraph12 h4 {
+	font-family: 'Coming Soon', serif;
+}
+body.paragraph13, body.paragraph13 h4 {
+	font-family: 'Marck Script', serif;
+}
+body.paragraph14, body.paragraph14 h4 {
+	font-family: 'Short Stack', serif;
+}
+h5, h6, input {
+	font-family: inherit
+}
+ul, ol {
+	padding-top:10px;
+}
+p {
+	line-height: 24px;
+}
+
+body.bg2 {
+	background: url(images/bg.png) repeat;
+}
+body.bg3 {
+	background: url(images/bg2.png) repeat;
+}
+body.bg4 {
+	background: url(images/bg3.png) repeat;
+}
+body.bg5 {
+	background: url(images/bg4.png) repeat;
+}
+body.bg6 {
+	background: url(images/bg5.png) repeat;
+}
+body.bg7 {
+	background: url(images/bg6.png) repeat;
+}
+body.bg8 {
+	background: url(images/bg7.png) repeat;
+}
+body.bg9 {
+	background: url(images/bg8.png) repeat;
+}
+body.bg10 {
+	background: url(images/bg9.png) repeat;
+}
+body.bg11 {
+	background: url(images/bg10.png) repeat;
+}
+body.bg12 {
+	background: url(images/bg11.png) repeat;
+}
+body.bg13 {
+	background: url(images/bg12.png) repeat;
+}
+body.bg14 {
+	background: url(images/bg13.png) repeat;
+}
+body.bg15 {
+	background: url(images/bg14.png) repeat;
+}
+body.bg16 {
+	background: url(images/bg15.png) repeat;
+}
+body.bg17 {
+	background: url(images/bg16.png) repeat;
+}
+body.bg18 {
+	background: url(images/bg17.png) repeat;
+}
+body.bg19 {
+	background: url(images/bg18.png) repeat;
+}
+body.bg20 {
+	background: url(images/bg19.png) repeat;
+}
+body.bg21 {
+	background: url(images/bg20.png) repeat;
+}
+body.bg22 {
+	background: url(images/bg21.png) repeat;
+}
+body.bg23 {
+	background: url(images/bg22.png) repeat;
+}
+body.bg24 {
+	background: url(images/bg23.png) repeat;
+}
+body.bg25 {
+	background: url(images/bg24.png) repeat;
+}
+body.bg26 {
+	background: url(images/bg25.png) repeat;
+}
+body.bg27 {
+	background: url(images/bg26.png) repeat;
+}
+body.bg28 {
+	background: url(images/bg27.png) repeat;
+}
+h1, h2, h3, h4, h5, h6 {
+margin: 0;
+padding: 5px 0;
+}
+h3,h4,h5,h6{
+font-weight: normal;
+
+}
+strong {
+	background: none;
+	padding: 0;
+}
+blockquote {
+	font-size: 16px;
+}
+body{
+margin:0;
+padding:0;
+color:#000;
+font-family: 'Roboto Condensed', sans-serif;
+background:#fff ;
+font:normal 0.9em/150% ;
+text-shadow: 0px 0px 1px transparent; /* google font pixelation fix */
+}
+#wrap{
+width:960px;/*960*/
+background:#fff;
+margin:30px auto 30px auto;
+padding:0;
+border:1px solid #ccc;
+}
+#presentation {
+	margin: 0;
+}
+.menu{
+margin:-1px -1px 0 -1px;
+}
+div.slide {
+height: 400px;
+padding: 40px;
+position: relative;
+width: 89%;
+padding-top: 55px;
+background: #fff;
+}
+div.inactiveslide {
+opacity: 0.4;
+}
+div.activeslide {
+opacity: 1;
+}
+div.footer {
+bottom: 20px;
+color: #404040;
+font-family: arial;
+font-size: 26px;
+position: absolute;
+text-align: center;
+width: 100%;
+}
+pre {
+font-family: monospace;
+font-size: 16pt;
+height: 600px;
+letter-spacing: -1px;
+line-height: 20pt;
+overflow: auto;
+}
+pre:focus {
+outline: 0;
+}
+div.phone {
+-webkit-box-shadow: 0 0 30px #c0c0c0;
+-moz-box-shadow: 0 0 30px #c0c0c0;
+box-shadow: 0 0 30px #c0c0c0;
+-moz-border-radius: 40px;
+-webkit-border-radius: 40px;
+border-radius: 40px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+background-color: black;
+height: 650px;
+left: 50%;
+margin-left: -190px;
+margin-top: -325px;
+position: absolute;
+top: 50%;
+width: 380px;
+}
+
+#content_squeeze {
+	width: 730px;
+	margin: 0 auto;
+	min-height: 500px;
+	background: #fff;
+	-webkit-box-shadow: 0 0 5px #c0c0c0;
+	-moz-box-shadow: 0 0 5px #c0c0c0;
+	box-shadow: 0 0 5px #c0c0c0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: 40px;
+}
+	#iframe_squeeze {
+		width: 100%;
+	}

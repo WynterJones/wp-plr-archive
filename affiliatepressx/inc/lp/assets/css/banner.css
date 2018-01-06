@@ -1,0 +1,22 @@
+#banner {
+		text-align: center;
+	z-index: 9999;
+}
+	#banner img.bannerAd {
+		margin: 0 auto; 
+		text-align: center; 
+		display: block;
+		max-width: 100% !important;
+		border-radius: 5px;
+		}
+
+	
+	#banner.bannerImage1 img.bannerAd {
+		margin: 10px auto; 
+		text-align: center; 
+		display: block;
+		max-width: 100% !important;
+		border-radius: 5px;
+		box-shadow: 0 0 4px #333;
+	}
+	

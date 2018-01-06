@@ -1,0 +1,1 @@
+<?php echo stripslashes($results->video); ?>

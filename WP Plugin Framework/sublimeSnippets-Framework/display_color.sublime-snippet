@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+display_color( 
+	\$_GET['id'],
+	\$results->${1:ID},
+	"${3:Title Of Area}", 
+	"${1:ID}",
+	"${4:Help Text}"
+);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>display_color</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,10 @@
+.container {
+	background: #fff;
+	margin: 30px auto;
+	box-shadow: 0 0 20px #eee inset;
+	border-radius: 7px;
+}
+	.container #header {
+		border-top-left-radius: 7px;
+		border-top-right-radius: 7px;
+	}

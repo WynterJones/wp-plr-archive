@@ -1,0 +1,116 @@
+/* Have ideas for improving this CSS for the general community? Submit your changes at: https://github.com/Valums-File-Uploader/file-uploader */
+.qq-uploader {
+	position: relative;
+	width: 100%;
+}
+.qq-upload-button {
+	display: block;
+	/*or inline-block*/
+	padding: 7px 0;
+	-moz-box-shadow:inset 0px 1px 0px 0px #a4e271;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #a4e271;
+        box-shadow:inset 0px 1px 0px 0px #a4e271;
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #89c403), color-stop(1, #77a809));
+        background:-moz-linear-gradient(top, #89c403 5%, #77a809 100%);
+        background:-webkit-linear-gradient(top, #89c403 5%, #77a809 100%);
+        background:-o-linear-gradient(top, #89c403 5%, #77a809 100%);
+        background:-ms-linear-gradient(top, #89c403 5%, #77a809 100%);
+        background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#89c403', endColorstr='#77a809',GradientType=0);
+        cursor:pointer;
+        background-color:#89c403;
+        
+        -moz-border-radius:6px;
+        -webkit-border-radius:6px;
+        border-radius:6px;
+        
+        border:1px solid #74b807;
+        
+        display:inline-block;
+        color:#ffffff;
+        font-family:arial;
+        font-size:15px;
+        font-weight:bold;
+        padding:6px 24px;
+        text-decoration:none;
+        
+        text-shadow:0px 1px 0px #528009;
+}
+.qq-upload-button-hover {
+}
+.qq-upload-button-focus {
+	outline: 1px dotted #000000;
+}
+.qq-upload-drop-area, .qq-upload-extra-drop-area {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	min-height: 30px;
+	z-index: 2;
+	background: #FF9797;
+	text-align: center;
+}
+.qq-upload-drop-area span {
+	display: block;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	margin-top: -8px;
+	font-size: 16px;
+}
+.qq-upload-extra-drop-area {
+	position: relative;
+	margin-top: 50px;
+	font-size: 16px;
+	padding-top: 30px;
+	height: 20px;
+	min-height: 40px;
+}
+.qq-upload-drop-area-active {
+	background: #FF7171;
+}
+.qq-upload-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.qq-upload-list li {
+	margin: 0;
+	padding: 9px;
+	line-height: 15px;
+	font-size: 16px;
+	background-color: #FFF0BD;
+}
+.qq-upload-file, .qq-upload-spinner, .qq-upload-size, .qq-upload-cancel, .qq-upload-failed-text {
+	margin-right: 12px;
+}
+.qq-upload-file {
+}
+.qq-upload-spinner {
+	display: inline-block;
+	background: url("loading.gif");
+	width: 15px;
+	height: 15px;
+	vertical-align: text-bottom;
+}
+.qq-upload-size, .qq-upload-cancel {
+	font-size: 12px;
+	font-weight: normal;
+}
+.qq-upload-failed-text {
+	display: none;
+}
+.qq-upload-fail .qq-upload-failed-text {
+	display: inline;
+}
+.qq-upload-list li.qq-upload-success {
+	background-color: #5DA30C;
+	color: #FFFFFF;
+}
+.qq-upload-list li.qq-upload-fail {
+	background-color: #D60000;
+	color: #FFFFFF;
+}

@@ -1,0 +1,215 @@
+@media all and (max-width: 810px) {
+	body {
+		overflow-x: hidden;
+	}
+	#deal {
+		width: 420px;
+	}
+		#deal h2 {
+			font-size: 32px;
+			line-height: 46px
+		}
+		.bigDetail {
+			width: 79px;
+		}
+		.smallDetail {
+			width: 105px;
+		}
+		.myButton {
+			width: 345px;
+		}
+		.cta {
+			width: 395px;
+		}
+			.cta span {
+				font-size: 12px;
+			}
+		#miniDeal .bigDetail {
+			width: 43px;
+		}
+		#miniDeal .smallDetail {
+			width: 63px;
+		}
+		#miniDeal .myButton {
+			width: 198px;
+			font-size: 17px;
+		}
+
+	.video {
+		width: 375px;
+	}
+		.video iframe, .video object, .video embed {
+			width: 100%;
+		}
+	.content {
+		width: 514px;
+	}
+	.sidebar {
+		float: right
+	}
+		
+}
+
+
+@media all and (max-width: 768px) {
+	body {
+		overflow-x: hidden;
+	}
+	#deal {
+		width: 400px;
+	}
+		#deal h2 {
+			font-size: 32px;
+			line-height: 46px
+		}
+		.bigDetail {
+			width: 76px;
+		}
+		.smallDetail {
+			width: 105px;
+		}
+		.myButton {
+			width: 345px;
+		}
+		.cta {
+			width: 395px;
+		}
+			.cta span {
+				font-size: 12px;
+			}
+		#miniDeal .bigDetail {
+			width: 40px;
+		}
+		#miniDeal .smallDetail {
+			width: 60px;
+		}
+		#miniDeal .myButton {
+			width: 188px;
+			font-size: 17px;
+		}
+
+	.video {
+		width: 354px;
+	}
+		.video iframe, .video object, .video embed {
+			width: 100%;
+		}
+	.content {
+		width: 494px;
+	}
+	.sidebar {
+		float: right
+	}
+		
+}
+
+
+@media (max-width: 480px) {
+	body {
+		overflow-x: hidden;
+	}
+	#deal {
+		width: 480px;
+	}
+		#deal h2 {
+			font-size: 32px;
+			line-height: 46px;
+			width: 430px;
+		}
+		.bigDetail {
+			width: 98px;
+		}
+		.smallDetail {
+			width: 124px;
+		}
+		.myButton {
+			width: 400px;
+		}
+		.cta {
+			width: 435px;
+		}
+	.video {
+		width: 507px;
+		margin-right: -41px;
+		z-index: 999999;
+		position: relative;
+	}
+		.video iframe, .video object, .video embed {
+			width: 105%;
+			margin-right: 10px;
+		}
+	.mainContent {
+		display: none;
+	}
+	.sidebar {
+		display: none;
+	}
+	.mainBox {
+		height: 775px;
+	}
+}
+
+
+
+@media (max-width: 320px) {
+	body {
+		overflow-x: hidden;
+	}
+	.header img {
+		width: 320px;
+		height: 100px;
+		margin: 0;
+		margin-right: -10px;
+	}
+	#deal {
+		width: 320px;
+		height: auto;
+	}
+		#deal h2 {
+			font-size: 29px;
+			line-height: 40px;
+			width: 300px;
+			margin-left: -10px;
+		}
+		.bigDetail {
+			width: 64px;
+			margin-bottom: 5px;
+		}
+		.smallDetail {
+			width: 84px;
+		}
+		.firstDetail {
+			margin-left: -2px;
+		}
+		.myButton {
+			width: 275px;
+			margin-left: -11px;
+			font-size: 18px;
+		}
+		.cta {
+			width: 300px;
+		}
+			.cta span {
+				font-size: 11px;
+			}
+	.video {
+		width: 346px;
+		margin-right: -41px;
+		z-index: 999999;
+		position: relative;
+	}
+		.video iframe, .video object, .video embed {
+			width: 320px !important;
+			margin-right: 10px;
+		}
+	.mainContent {
+		display: none;
+	}
+	.sidebar {
+		display: none;
+	}
+	.mainBox {
+		height: 775px;
+	}
+	
+}

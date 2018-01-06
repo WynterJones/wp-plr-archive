@@ -1,0 +1,11 @@
+.container {
+	background: #fff;
+	margin: 30px auto;
+	box-shadow: 0 0 5px #333, 0 0 10px #eee inset;
+	border-radius: 10px;
+	border: 3px solid #ccc;
+}
+	.container #header {
+		border-top-left-radius: 7px;
+		border-top-right-radius: 7px;
+	}

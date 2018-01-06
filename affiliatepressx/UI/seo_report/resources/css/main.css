@@ -1,0 +1,186 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+
+html { height: 100%; }
+body {
+	background: none;
+	
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+	
+	padding: 0px;
+	margin: 0px;
+	
+	height: 100%;
+	overflow: hidden;
+	color: #555;
+}
+
+.container {
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+	background: #298BDF;
+	border-bottom: 4px solid #006daa;
+}
+.header_inner {
+	padding: 40px 0;
+}
+.header a {
+	text-decoration: none;
+}
+.header h1 {
+	font-size: 48px;
+	color: #fff;
+    font: bold 5em Arial, sans-serif;
+	
+	margin: 0px;
+	padding: 0px;
+}
+.header h3 {
+	font-size: 24px;
+	color: #fff;
+    font: bold 1.5em Arial, sans-serif;
+	
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Body */
+
+.body {
+	
+    font: normal 1em Arial, sans-serif;
+	line-height: 19px;
+	color: #444;
+	
+	min-height: 100%;
+	
+	margin-bottom: 30px;
+}
+.body h2 {
+	margin-top: 35px;
+}
+
+/* Columns */
+
+.column-3 {
+	width: 30%;
+	padding-right: 3%;
+	
+	float: left;
+}
+
+.column-2 {
+	width: 47%;
+	padding-right: 3%;
+	
+	float: left;
+}
+
+.clear { clear: both; }
+
+/* Footer */
+
+.footer {
+	background: #555;
+	border-top: 4px solid #282828;
+	padding: 30px 0;
+	
+    font: normal 1em Arial, sans-serif;
+	color: #ccc;
+	
+	line-height: 22px;
+}
+
+.footer a {
+	color: #bbb;
+}
+
+/* Inputs */
+
+.textbox {
+	background: #FFF;
+	border: 1px solid #CCC;
+	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	
+	padding: 7px;
+	
+	font: normal 0.9em Arial, sans-serif;
+	color: #555;
+}
+input::input-placeholder {
+	color: #666;
+}
+input::-webkit-input-placeholder {
+	color: #666;
+}
+
+.mbutton {
+	background: #298BDF;
+	border: 1px solid #298BDF;
+	padding: 7px 14px;
+	
+	font: bold 0.9em Arial, sans-serif;
+	color: white;
+	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	
+	cursor: pointer;
+}
+.mbutton:hover {
+	background: #4bbcff;
+}
+
+.select {
+	background: #FFF;
+	border: 1px solid #CCC;
+	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	
+	padding: 6px;
+	
+	font: normal 0.9em Arial, sans-serif;
+	color: #555;
+}
+
+/* Misc. */
+
+.StatusIcon {
+	margin-left: 15px;
+	margin-top: 0px;
+	margin-bottom: -3px;
+}
+
+.Popout {
+	border-left: 4px solid #298BDF;
+	padding-left: 20px;
+}
+
+/* Tables */
+
+.BlueTable {
+	background: #fafafa;
+	border: 2px solid #298BDF;
+}
+.BlueTable tr.HeadRow {
+	background: #298BDF;
+	
+	font: bold 1.1em Arial, sans-serif;
+	color: #fff;
+}
+.BlueTable .Column.Name { color: #555; font-weight: bold; }
+.BlueTable .Even { background: #f2f2f2; }
+.BlueTable .Odd { background: #fff; }
+.BlueTable .Column.Score { font-size: 1.5em; text-align: center; font-weight: bold; }

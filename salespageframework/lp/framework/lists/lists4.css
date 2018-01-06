@@ -1,0 +1,14 @@
+ul.list  {
+	font-weight: bold;
+	margin-left: -20px;
+}
+	ul.list  li {
+		margin:  0;
+		border-bottom: 1px solid #ccc;
+	}
+	ul.list  li.x:nth-child(odd) {
+		background: #fafafa url(https://cdn1.iconfinder.com/data/icons/nuvola2/32x32/actions/button_cancel.png) no-repeat left;
+	}
+	ul.list  li.check:nth-child(odd) {
+		background: #fafafa url(https://cdn1.iconfinder.com/data/icons/nuvola2/32x32/actions/camera_test.png) no-repeat left;
+	}

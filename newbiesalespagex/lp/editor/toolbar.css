@@ -1,0 +1,86 @@
+#content-editor {
+			
+		}
+		#toolbar {
+			margin:10px;
+			z-index: 9999;
+			width: 50px;
+			background: #eee;
+			border-radius: 10px;
+			box-shadow: 0 0 5px #260D2B;
+			border: 1px solid #260D2B;
+border-radius: 5px;
+background-image: -webkit-gradient(linear, right center, left center, from(#fcfcfc), to(#d4d4d4), color-stop(3%, #f7f7f7), color-stop(12%, #f2f2f2), color-stop(90%, #e3e3e3));
+background-image: -webkit-linear-gradient(right, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #e3e3e3 90%, #d4d4d4);
+background-image: -moz-linear-gradient(right, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #e3e3e3 90%, #d4d4d4);
+background-image: -o-linear-gradient(right, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #e3e3e3 90%, #d4d4d4);
+background-image: -ms-linear-gradient(right, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #e3e3e3 90%, #d4d4d4);
+background-image: linear-gradient(to left, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #e3e3e3 90%, #d4d4d4);
+-webkit-box-shadow: 0 1px 5px #504F54;
+-moz-box-shadow: 0 1px 5px #504F54;
+box-shadow: 0 1px 5px #504F54;
+		}
+		#toolbar a {
+			width: 50px !important;
+			
+		}
+		#toolbar a img {
+			display: block;
+			margin: 0 auto;
+		}
+		#toolbar .btn-group {
+			margin: 0;
+			width: 50px !important;
+			border-radius: none;
+		}
+		#toolbar .btn {
+			background: none;
+			text-align: center;
+			color: #555;
+			text-shadow: 1px 1px 0 #fff;
+			border: none;
+			border-radius: 0;
+			box-shadow: none;
+			opacity: .6;
+			padding: 5px 0;
+			height: 25px;
+		}
+			#toolbar .btn:hover {
+				opacity: 1;
+				background: #ddd;
+				box-shadow: 0 0  4px #999 inset;
+			}
+		#saveHTML {
+			font-size: 13px;
+			font-weight: bold;
+			background: #504F54;
+			color: #fff;
+			position:  fixed;
+			top: 580px;
+			width: 50px;
+			left: 10px;
+			text-align: center;
+			font-family: Helvetica. 'myriad pro', sans-serif !important;
+			padding: 5px 0;
+			padding-top: 10px;
+			border: 1px solid #260D2B;
+border-radius: 5px;
+-webkit-box-shadow: 0 1px 5px #504F54;
+-moz-box-shadow: 0 1px 5px #504F54;
+box-shadow: 0 1px 5px #504F54;
+		}
+		#saveHTML:hover {
+			text-decoration: none;
+			background: #FD8507;
+		}
+		#html {
+			width: 500px;
+			height: 610px;
+			background: #333;
+			color: #fff;
+			position:  fixed;
+			top: 10px;
+			display: none;
+			z-index: 9999;
+			left: 70px;
+		}

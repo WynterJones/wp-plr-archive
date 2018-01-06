@@ -1,0 +1,167 @@
+#mainContent{
+	background-color: #FFF;
+	width: 700px;
+	padding: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 14px;
+	margin-bottom: 14px;
+	box-shadow: 0px 1px 7px #999;
+	-webkit-box-shadow: 0px 0px 7px #999;
+	-moz-box-shadow: 0px 1px 7px #999;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 3px solid #ededed;
+}
+
+.intro {
+	font-family: 'Droid Serif', serif;
+	margin-bottom: 0;
+	font-size: 20px;
+	color: #666;
+	float: left;
+}
+
+.share{
+	float: right;
+	position: relative;
+	z-index: 1;
+	overflow: visible;
+	display: inline-block;
+	border: 1px solid #999;
+	border-bottom-color: #888;
+	margin: 0;
+	text-decoration: none;
+	text-align: center;
+	white-space: nowrap;
+	cursor: pointer;
+	color: #333;
+	background-color: #EEE;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F5F6F6), to(#E4E4E3));
+	background-image: -moz-linear-gradient(#F5F6F6, #E4E4E3);
+	background-image: -o-linear-gradient(#F5F6F6, #E4E4E3);
+	background-image: linear-gradient(#F5F6F6, #E4E4E3);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f5f6f6', EndColorStr='#e4e4e3');
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 white;
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #fff;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 white;
+	zoom: 1;
+	font-weight: bold !important;
+	font-size: 12px !important;
+	line-height: normal;
+	padding-right: 10px;
+	padding-left: 10px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin-top: -5px;
+}
+
+.webTitle {
+	border-bottom: 1px dotted #e3e3e3;
+	border-top: 1px dotted #e3e3e3;
+	color: #22333d;
+	text-shadow: 1px 1px 1px white;
+	margin: 10px 0;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	text-transform: uppercase;
+	font: bold 47px/1.1em 'LeagueGothicRegular', Arial, sans-serif;
+}
+
+h2.subhead {
+	margin: -2px 0 0;
+	font-size: 18px;
+	font-weight: normal;
+}
+.droidserif {
+	font-family: 'Droid Serif', serif;
+}
+
+h2.droid {
+	font-size: 20px;
+	color: #D34C21;
+}
+
+.droid {
+	font-family: 'Droid Sans', sans-serif;
+}
+
+#header p{
+	text-shadow: 1px 1px 1px white;
+	color: #4e4e4e;
+	font: 16px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#webImage{
+	max-height: 215px;
+	max-width: 200px;
+	border: 2px solid #FFF;
+	box-shadow: 0px 1px 7px #999;
+	-webkit-box-shadow: 0px 0px 7px #999;
+	-moz-box-shadow: 0px 1px 7px #999;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding:0px;
+	margin-bottom:40px;
+	margin-left: 40px;
+}
+
+#optinBox h1{
+	color: #2d2d2d;
+	font: bold 20px 'Droid Sans', sans-serif;
+}
+
+#optinBox{
+	margin-top: 30px;
+	clear: all;
+	margin-left: -40px;
+	margin-right: -40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 2px dashed #d7d7d7;
+	border-top: 2px dashed #d7d7d7;
+	font-family: 'Droid Sans', sans-serif;
+	/*background: #ededed;*/
+}
+
+.showArrow{
+	height: 100%;
+	width: 100%;
+	background: url(../images/arrow.png) no-repeat right center #ededed;
+}
+
+.noArrow{
+	background-color: #ededed;
+}
+
+.inputz{
+	display: block;
+	padding: 15px;
+	width: 400px;
+}
+
+#fullName{
+	background: url(../images/vcard.png) no-repeat 390px center #ffffff;
+}
+
+#emailAddy{
+	margin-top: 15px;
+	background: url(../images/email.png) no-repeat 390px center #ffffff;
+}
+
+#register{
+	text-align: center;
+	width: 400px;
+	padding: 15px;
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#footer{
+	font-family: 'Droid Sans', sans-serif;
+	color: #7f7f7f;
+}
+
