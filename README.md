@@ -6,7 +6,6 @@ Originally released: `2010 - 2014`
 
 Via the MonetizeDesign PLR Newsletter with PLR (Private Label Rights).
 
-- You are free to modify, edit and use the code in anyway you see fit.
 - `No support is offered from MonetizeDesign for using or editing the WP Plugin files.` 
 - *Available for archival purposes.*
 
